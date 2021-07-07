@@ -2,3 +2,7 @@
 04/01/2020
 
 https://alvaron.com.br/como-escolher-uma-hospedagem-de-sites-para-sua-pequena-empresa/
+
+06/07/2021
+
+Primeira versão do Projeto Front End publicada com sucesso no Git Hub.
