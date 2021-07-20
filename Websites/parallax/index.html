@@ -1,0 +1,421 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Natureza Selvagem</title>
+<link rel="stylesheet" href="css/estilos.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/w3.css">
+<link href="https://fonts.googleapis.com/css?family=Jomhuria|Poller+One" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Menu com barra fixa no topo e responsivo -->
+
+<div class="w3-bar w3-theme-l2 w3-top">
+<a href="#area1" class="w3-bar-item w3-button w3-hover-amber linkTop">Início</a>
+<a href="conteudo.html" class="w3-bar-item w3-button w3-hide-small w3-hover-amber linkTop">Apresentação</a>
+<a href="elementos.html" class="w3-bar-item w3-button w3-hide-small w3-hover-amber linkTop">Elementos</a>
+<a href="contato.html" class="w3-bar-item w3-button w3-hide-small w3-hover-amber linkTop">Contato</a>
+<a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium w3-hover-amber linkTop" onclick="myFunction()">&#9776;</a>
+</div>
+
+<div id="demo" class="w3-bar-block w3-theme-l2 w3-hide w3-hide-large w3-hide-medium w3-hover-amber" style="position: fixed; top: 60; z-index: 50">
+<a href="index.html" class="w3-bar-item w3-button w3-hover-amber linkTop">Início</a>
+<a href="conteudo.html" class="w3-bar-item w3-button w3-hover-amber linkTop">Apresentação</a>
+<a href="elementos.html" class="w3-bar-item w3-button w3-hover-amber linkTop">Elementos</a>
+<a href="contato.html" class="w3-bar-item w3-button w3-hover-amber linkTop">Contato</a>
+</div>
+
+
+
+<!-- BG Parallax 1 - Logotipo -->
+
+<div class="parallax1" id="area1">
+	<div class="LogoTop">
+		<img src="img/logo1.png" class="logotipo">
+	</div>
+</div>
+
+
+
+<!-- Conteúdo 1 - Título, Subtítulo e Slideshow -->
+
+<div class="w3-container w3-center">
+<h1 class="titPrincipal">UMA EXPEDIÇÃO FOTOGRÁFICA</h1>
+<h2 class="subtitPrincipal">Modelo para apresentação de fotos e vídeos.</h2>
+</div>
+
+<div class="w3-container w3-content w3-display-container">
+<h3 class="subtitSecundario">Slideshow com destaques</h3>
+<p>Veja algumas das nossas imagens mais marcantes, selecionadas pela equipe do site.</p>
+</div>
+
+<div class="w3-content w3-display-container">
+
+<div class="w3-display-container mySlides">
+<img src="img/fjords.jpg" style="width:100%">
+<div class="w3-display-bottomright w3-large w3-container w3-padding-16 corSlideshow">
+Fjords
+</div>
+</div>
+
+<div class="w3-display-container mySlides">
+<img src="img/lights.jpg" style="width:100%">
+<div class="w3-display-bottomright w3-large w3-container w3-padding-16 corSlideshow">
+Aurora boreal
+</div>
+</div>
+
+<div class="w3-display-container mySlides">
+<img src="img/forest.jpg" style="width:100%">
+<div class="w3-display-bottomright w3-large w3-container w3-padding-16 corSlideshow">
+Floresta
+</div>
+</div>
+
+<div class="w3-display-container mySlides">
+<img src="img/mountains.jpg" style="width:100%">
+<div class="w3-display-bottomright w3-large w3-container w3-padding-16 corSlideshow">
+Montanhas
+</div>
+</div>
+
+<button class="w3-button w3-display-left corSlideshow" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right corSlideshow" onclick="plusDivs(1)">&#10095;</button>
+
+<br>
+<br>
+<br>
+<br>
+
+</div>
+
+<!-- BG Parallax 2 - Foto BG com título em Tag -->
+
+<div class="parallax2 w3-display-container" id="area2">
+<div class="w3-display-middle w3-tag w3-text-white corTag w3-border w3-border-white"><h3 class="subtitTag">APRESENTAÇÃO</h3></div>
+</div>
+
+<!-- Conteúdo 2 - Subtítulo, Parágrafo e Ícones do Font Awesome -->
+
+<div class="w3-content w3-display-container">
+<div class="w3-panel w3-card-2 bgCard1">
+<h2 class="subtitConteudo">Lorem ipsum dolor sit amet, consectetur adipiscing</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
+<br>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<h3 class="subtitSecundario w3-margin-bottom">Categorias de Viagem</h3>
+
+
+<div class="w3-row">
+
+<div class="w3-col m4 w3-center">
+
+<img src="img/ico_1.png" class="w3-margin-bottom">
+<br>
+<p class="w3-margin-bottom w3-center"><b>Rodoviária</b></p>
+</div>
+
+<div class="w3-col m4 w3-center">
+
+<img src="img/ico_2.png" class="w3-margin-bottom">
+<br>
+<p class="w3-margin-bottom w3-center"><b>Aérea</b></p>
+</div>
+
+<div class="w3-col m4 w3-center">
+
+<img src="img/ico_3.png" class="w3-margin-bottom">
+<br>
+<p class="w3-margin-bottom w3-center"><b>Marítima</b></p>
+</div>
+
+</div>
+<br>
+<br>
+</div>
+</div>
+
+<!-- BG Parallax 3 - Foto BG com Galeria de Fotos em Modal -->
+
+<div class="parallax3" id="area3">
+
+<div class="w3-content w3-display-container">
+
+<br>
+<h2 class="subtitConteudo w3-text-white w3-margin-left">Galeria de Fotos</h2>
+
+<div class="w3-row-padding">
+
+<div class="w3-container w3-quarter w3-padding">
+<img src="img/img_fjords.jpg" style="width:100%;cursor:pointer" 
+onclick="onClick(this)" class="w3-hover-opacity">
+</div>
+
+<div class="w3-container w3-quarter w3-padding">
+<img src="img/img_lights.jpg" style="width:100%;cursor:pointer" 
+onclick="onClick(this)" class="w3-hover-opacity">
+</div>
+
+<div class="w3-container w3-quarter w3-padding">
+<img src="img/img_mountains.jpg" style="width:100%;cursor:pointer" 
+onclick="onClick(this)" class="w3-hover-opacity">
+</div>
+
+<div class="w3-container w3-quarter w3-padding">
+<img src="img/img_forest.jpg" style="width:100%;cursor:pointer" 
+onclick="onClick(this)" class="w3-hover-opacity">
+</div>
+
+</div>
+
+
+<div class="w3-row-padding">
+
+<div class="w3-container w3-quarter w3-padding">
+<img src="img/img_fjords.jpg" style="width:100%;cursor:pointer" 
+onclick="onClick(this)" class="w3-hover-opacity">
+</div>
+
+<div class="w3-container w3-quarter w3-padding">
+<img src="img/img_lights.jpg" style="width:100%;cursor:pointer" 
+onclick="onClick(this)" class="w3-hover-opacity">
+</div>
+
+<div class="w3-container w3-quarter w3-padding">
+<img src="img/img_mountains.jpg" style="width:100%;cursor:pointer" 
+onclick="onClick(this)" class="w3-hover-opacity">
+</div>
+
+<div class="w3-container w3-quarter w3-padding">
+<img src="img/img_forest.jpg" style="width:100%;cursor:pointer" 
+onclick="onClick(this)" class="w3-hover-opacity">
+</div>
+
+</div>
+
+
+<div class="w3-row-padding">
+
+<div class="w3-container w3-quarter w3-padding">
+<img src="img/img_fjords.jpg" style="width:100%;cursor:pointer" 
+onclick="onClick(this)" class="w3-hover-opacity">
+</div>
+
+<div class="w3-container w3-quarter w3-padding">
+<img src="img/img_lights.jpg" style="width:100%;cursor:pointer" 
+onclick="onClick(this)" class="w3-hover-opacity">
+</div>
+
+<div class="w3-container w3-quarter w3-padding">
+<img src="img/img_mountains.jpg" style="width:100%;cursor:pointer" 
+onclick="onClick(this)" class="w3-hover-opacity">
+</div>
+
+<div class="w3-container w3-quarter w3-padding">
+<img src="img/img_forest.jpg" style="width:100%;cursor:pointer" 
+onclick="onClick(this)" class="w3-hover-opacity">
+</div>
+
+</div>
+
+
+<div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+<span class="w3-button w3-gray w3-text-white w3-hover-light-gray w3-xlarge w3-display-topright"><b>&times;</b></span>
+<div class="w3-modal-content w3-animate-zoom">
+<img id="img01" style="width:100%">
+</div>
+</div>
+
+</div>
+
+</div>
+
+<!-- Conteúdo 3 - W3 Container, Section e Margin -->
+
+<div class="w3-container w3-margin-top">
+<div class="w3-content w3-display-container w3-theme-d2">
+<h1 class="titPrincipal w3-padding">Título Conteúdo 3</h1>
+<h2 class="subtitPrincipal w3-padding">Lorem ipsum dolor sit amet</h2>
+<p class="w3-padding">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
+<br></p>
+</div>
+</div>
+
+<br>
+<br>
+
+<!-- Conteúdo 4 - Cards -->
+
+<div class="w3-content w3-display-container">
+
+<div class="w3-row">
+<h2 class="subtitPrincipal w3-margin-left">Photo Cards</h2>
+
+<div class="w3-third w3-padding">
+<div class="w3-card-4" style="width:100%">
+<img src="img/img_fjords.jpg" alt="Norway" style="width:100%">
+<div class="w3-container w3-center">
+<p class="legCard">Lorem Ipsum dolor sit amet</p>
+</div>
+</div>
+</div>
+
+<div class="w3-third w3-padding">
+<div class="w3-card-4" style="width:100%">
+<img src="img/img_forest.jpg" alt="Norway" style="width:100%">
+<div class="w3-container w3-center">
+<p class="legCard">Lorem Ipsum dolor sit amet</p>
+</div>
+</div>
+</div>
+
+<div class="w3-third w3-padding">
+<div class="w3-card-4" style="width:100%">
+<img src="img/img_lights.jpg" alt="Norway" style="width:100%">
+<div class="w3-container w3-center">
+  <p class="legCard">Lorem Ipsum dolor sit amet</p>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<br>
+<br>
+
+<!-- BG Parallax 4 - Galeria de Vídeos -->
+
+<div class="parallax4" id="area4">
+
+<div class="w3-content w3-display-container">
+
+<br>
+<br>
+<h2 class="subtitConteudo w3-margin-left w3-theme-d5 w3-padding">Galeria de Vídeos</h2>
+
+<div class="w3-row-padding w3-margin-bottom">
+
+<div class="w3-container w3-third w3-padding">
+<iframe width="294" height="165" src="https://www.youtube.com/embed/4ffysPNRt88?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<p class="w3-theme-d3 w3-padding w3-border-bottom w3-border-white">Expedição Fotográfica Parte 1</p>
+</div>
+
+<div class="w3-container w3-third w3-padding">
+<iframe width="294" height="165" src="https://www.youtube.com/embed/4ffysPNRt88?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<p class="w3-theme-d3 w3-padding w3-border-bottom w3-border-white">Expedição Fotográfica Parte 2</p>
+</div>
+
+<div class="w3-container w3-third w3-padding">
+<iframe width="294" height="165" src="https://www.youtube.com/embed/4ffysPNRt88?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<p class="w3-theme-d3 w3-padding w3-border-bottom w3-border-white">Expedição Fotográfica Parte 3</p>
+</div>
+
+</div>
+
+<div class="w3-row-padding">
+
+<div class="w3-container w3-third w3-padding">
+<iframe width="294" height="165" src="https://www.youtube.com/embed/4ffysPNRt88?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<p class="w3-theme-d3 w3-padding w3-border-bottom w3-border-white">Expedição Fotográfica Parte 4</p>
+</div>
+
+<div class="w3-container w3-third w3-padding">
+<iframe width="294" height="165" src="https://www.youtube.com/embed/4ffysPNRt88?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<p class="w3-theme-d3 w3-padding w3-border-bottom w3-border-white">Expedição Fotográfica Parte 5</p>
+</div>
+
+<div class="w3-container w3-third w3-padding">
+<iframe width="294" height="165" src="https://www.youtube.com/embed/4ffysPNRt88?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<p class="w3-theme-d3 w3-padding w3-border-bottom w3-border-white">Expedição Fotográfica Parte 6</p>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Conteúdo Rodapé 1 -->
+
+<div class="w3-content w3-display-container">
+<div class="w3-panel w3-card-2 bgCard1">
+<h2 class="subtitConteudo">Lorem ipsum dolor sit amet, consectetur adipiscing</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
+<br>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<br>
+<br>
+</div>
+</div>
+
+
+<!-- Conteúdo Final - Rodapé -->
+
+<div class="w3-container w3-row w3-center w3-theme-d5 w3-padding">
+	<div class="w3-bar w3-theme-d2 w3-small w3-margin-top">
+  		<a href="index.html" class="w3-bar-item w3-button linkBranco w3-hover-amber w3-mobile">Início</a>
+  		<a href="conteudo.html" class="w3-bar-item w3-button linkBranco w3-hover-amber w3-mobile">Apresentação</a>
+  		<a href="elementos.html" class="w3-bar-item w3-button linkBranco w3-hover-amber w3-mobile">Elementos</a>
+  		<a href="contato.html" class="w3-bar-item w3-button linkBranco w3-hover-amber w3-mobile">Contato</a>
+	</div>
+    <h3>. . .</h3>
+    <p class="w3-center w3-small w3-margin-top">2017 Todos os Direitos Reservados - Desenvolvido por <a href="http://www.tmachado.com.br" target="_blank" class="linkBranco">Thiago de Moura Machado</a><p>
+</div>
+
+
+<!-- Script do Menu Responsivo -->
+
+<script>
+function myFunction() {
+var x = document.getElementById("demo");
+if (x.className.indexOf("w3-show") == -1) {
+x.className += " w3-show";
+} else { 
+x.className = x.className.replace(" w3-show", "");
+}
+}
+</script>
+
+
+<!-- Script do Slideshow -->
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+var i;
+var x = document.getElementsByClassName("mySlides");
+if (n > x.length) {slideIndex = 1}    
+if (n < 1) {slideIndex = x.length}
+for (i = 0; i < x.length; i++) {
+x[i].style.display = "none";  
+}
+x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+
+<!-- Script do Modal Galeria de Fotos -->
+
+<script>
+function onClick(element) {
+document.getElementById("img01").src = element.src;
+document.getElementById("modal01").style.display = "block";
+}
+</script>
+
+</body>
+</html>

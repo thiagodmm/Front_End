@@ -1,0 +1,415 @@
+@charset "iso-8859-1";
+/* CSS Document */
+
+
+/* Tags */
+
+body, html {
+    height: 100%;
+}
+
+h1 {
+	padding-top: 30px;
+	}
+
+h2 {
+	padding-top: 20px;
+	padding-bottom: 30px;
+	}
+
+p {
+	padding-bottom: 20px!important;
+	margin-top: 10px!important;
+	text-align: justify!important;
+	}
+
+a {
+	color: #000000!important;
+	}
+
+a:active {
+	color: #000000!important;
+	}
+
+a:hover {
+	color: #9c7500!important;
+	}
+
+a:visited {
+	color: #9c7500!important;
+	}
+
+
+/* Classes */
+
+
+
+
+
+.w3-show {
+	margin-top: 0!important;
+	}
+
+.linkTop {
+	color: #826200!important;
+	text-decoration: underline!important;
+	}
+
+.linkTop:active {
+	color: #826200!important;
+	text-decoration: underline!important;
+	}
+
+.linkTop:hover {
+	color: #826200!important;
+	text-decoration: underline!important;
+	}
+
+.linkTop:visited {
+	color: #826200!important;
+	text-decoration: underline!important;
+	}
+
+
+.linkBranco {
+	color: #FFFFFF!important;
+	text-decoration: underline!important;
+	}
+
+.linkBranco:active {
+	color: #FFFFFF!important;
+	text-decoration: underline!important;
+	}
+
+.linkBranco:hover {
+	color: #FFFFFF!important;
+	text-decoration: underline!important;
+	}
+
+.linkBranco:visited {
+	color: #FFFFFF!important;
+	text-decoration: underline!important;
+	}
+
+
+.LogoTop {
+	padding-top: 75px;
+	}
+
+.logotipo {
+	width: 30%;
+	}
+
+
+.w3-show-block, .w3-show {
+	margin-top: 40px;
+	}
+	
+
+.legCard {
+	padding: 10px;
+	}
+
+
+.bgCard1 {
+	background-color: #fff3cd;
+	}
+
+.titPrincipal {
+	font-family: 'Poller One', cursive;
+	font-weight: bold;
+	font-size: 32px;
+	color: #826200;
+	}
+
+.subtitPrincipal {
+	font-family: 'Poller One', cursive;
+	font-size: 26px;
+	padding-bottom: 40px;
+	color: #ffc107;
+	}
+
+.subtitPrincipalBranco {
+	font-family: 'Poller One', cursive;
+	font-size: 26px;
+	padding-bottom: 40px;
+	color: #ffffff;
+	}
+
+.subtitConteudo {
+	font-family: 'Poller One', cursive;
+	font-size: 22px;
+	padding-top: 30px;
+	padding-bottom: 40px;
+	color: #b68900;
+	}
+
+.subtitSecundario {
+	font-family: 'Jomhuria', cursive;
+	font-size: 36px;
+	letter-spacing: 1px;
+	color: #b68900;
+	}
+
+.subtitForm {
+	font-family: 'Jomhuria', cursive;
+	font-size: 30px;
+	letter-spacing: 1px;
+	color: #b68900;
+	margin-top: 15px!important;
+	margin-bottom: 0px!important;
+	}
+
+.subtitTag {
+	font-family: 'Jomhuria', cursive;
+	font-size: 42px;
+	letter-spacing: 1px;
+	color: #FFFFFF;
+	margin: 10px;
+	}
+
+.corSlideshow {
+	color: #FFFFFF!important;
+    background-color: #826200!important;
+	}
+
+.corTag {
+    background-color: #826200!important;
+	}
+
+.corIcone {
+	color: #826200;
+	}
+
+.parallax1 { 
+ /* The image used */
+    background-image: url("../img/foto_top.jpg");
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+
+.parallax1contato { 
+ /* The image used */
+    background-image: url("../img/foto_top_contato.jpg");
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+
+.parallax1conteudo { 
+ /* The image used */
+    background-image: url("../img/foto_top_content.jpg");
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+
+.parallax1elementos { 
+ /* The image used */
+    background-image: url("../img/foto_top_elementos.jpg");
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+
+
+.parallax2 { 
+ /* The image used */
+    background-image: url("../img/foto_bg2.jpg");
+
+    /* Set a specific height */
+    height: 640px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+
+
+.parallax3 { 
+ /* The image used */
+    background-image: url("../img/foto_bg3.jpg");
+
+    /* Set a specific height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+
+.parallax4 { 
+ /* The image used */
+    background-image: url("../img/foto_bg4.jpg");
+
+    /* Set a specific height */
+    height: 640px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+
+
+/* W3 Theme Amber */
+
+.w3-theme-l5 {color:#000 !important; background-color:#fffbf0 !important}
+.w3-theme-l4 {color:#000 !important; background-color:#fff3cd !important}
+.w3-theme-l3 {color:#000 !important; background-color:#ffe69b !important}
+.w3-theme-l2 {color:#000 !important; background-color:#ffda69 !important}
+.w3-theme-l1 {color:#000 !important; background-color:#ffcd37 !important}
+.w3-theme-d1 {color:#000 !important; background-color:#eab000 !important}
+.w3-theme-d2 {color:#fff !important; background-color:#d09c00 !important}
+.w3-theme-d3 {color:#fff !important; background-color:#b68900 !important}
+.w3-theme-d4 {color:#fff !important; background-color:#9c7500 !important}
+.w3-theme-d5 {color:#fff !important; background-color:#826200 !important}
+
+.w3-theme-light {color:#000 !important; background-color:#fffbf0 !important}
+.w3-theme-dark {color:#fff !important; background-color:#826200 !important}
+.w3-theme-action {color:#fff !important; background-color:#826200 !important}
+
+.w3-theme {color:#000 !important; background-color:#ffc107 !important}
+.w3-text-theme {color:#ffc107 !important}
+.w3-border-theme {border-color:#ffc107 !important}
+
+.w3-hover-theme:hover {color:#000 !important; background-color:#ffc107 !important}
+.w3-hover-text-theme:hover {color:#ffc107 !important}
+.w3-hover-border-theme:hover {border-color:#ffc107 !important}
+
+
+
+/* Tablets - iPad */
+
+@media only screen and (max-device-width: 1024px) {
+	
+/* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
+
+.parallax3 {
+        background-attachment: scroll;
+		
+		/* Set a specific height */
+    	height: 650px; 
+    }
+
+
+.LogoTop {
+	padding-top: 175px;
+	}
+
+
+.logotipo {
+	display: block;
+	margin: auto;
+	background-color: rgba(0,0,0,0.5);
+	}
+	
+    
+}
+
+
+/* Celulares */
+
+@media only screen and (max-device-width: 415px) {
+
+
+.LogoTop {
+	padding-top: 125px;
+	}
+
+
+.logotipo {
+	width: 90%;
+	background-color: rgba(0,0,0,0.5);
+	}
+
+
+
+.parallax1 {
+        background-attachment: scroll;
+		
+		/* Set a specific height */
+    	height: 320px; 
+    }
+
+.parallax1contato {
+        background-attachment: scroll;
+		
+		/* Set a specific height */
+    	height: 320px; 
+    }
+
+.parallax1elementos {
+        background-attachment: scroll;
+		
+		/* Set a specific height */
+    	height: 320px; 
+    }
+
+.parallax1conteudo {
+        background-attachment: scroll;
+		
+		/* Set a specific height */
+    	height: 320px; 
+    }
+
+.parallax2 {
+        background-attachment: scroll;
+		
+		/* Set a specific height */
+    	height: 320px; 
+    }
+
+.parallax3 {
+        background-attachment: scroll;
+		
+		/* Set a specific height */
+    	height: 2500px; 
+    }
+	
+.parallax4 {
+        background-attachment: scroll;
+		
+		/* Set a specific height */
+    	height: 1600px; 
+    }
+	
+
+.thumbModal {
+	width: 50%;
+	}
+
+
+
+    
+}

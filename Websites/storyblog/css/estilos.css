@@ -1,0 +1,507 @@
+/*
+Theme Name: Storytelling
+Theme URI: https://wordpress.org/themes/twentyfifteen/
+Author: Thiago de Moura Machado
+Author URI: www.tmachado.com.br
+Description: Este tema faz parte do projeto The Digital Storytelling - A Multimedia Interactive Narrative.
+Version: 1.0
+Tags: blog, storytelling, multimedia
+Text Domain: storytelling
+*/
+
+
+
+@charset "iso-8859-1";
+/* CSS Document */
+
+
+/* Tags */
+
+/*
+a {
+	font-family: 'Yrsa', serif;
+	text-align: justify;
+	font-size: 18px!important;
+	}
+*/
+
+p {
+	font-family: 'Yrsa', serif;
+	text-align: justify;
+	font-size: 18px;
+	line-height: 22px;
+	}
+
+hr {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #a83b36;
+	}
+
+p a {
+	color: #992904;
+	}
+
+
+/* Classes */
+
+.widget h3 {
+    font-size: 18px;
+	line-height: 22px;
+	font-family: 'Marko One', serif;
+}
+
+
+.txtWidget {
+	font-family: 'Yrsa', serif;
+	text-align: justify;
+	font-size: 16px;
+	line-height: 20px;
+	}
+
+.logoInt {
+	width: 12%;
+	}
+
+.navItem {
+	font-size: 13px;
+}
+
+.navItemFooter {
+	font-family: Verdana,sans-serif;
+	font-size: 13px;
+	color: #FFFFFF;
+}
+
+
+.navBarMob {
+	display: none;
+}
+
+.titPrincipal {
+    font-size: 36px;
+	font-family: 'Marko One', serif;
+	/*
+	font-weight: bold;
+	color: #5E4215;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	line-height: 40px;
+	*/
+}
+
+.titPrincipal {
+    font-size: 36px;
+	font-family: 'Marko One', serif;
+	/*
+	font-weight: bold;
+	color: #5E4215;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	line-height: 40px;
+	*/
+}
+
+.titPrincipalInt {
+	font-family: 'Marko One', serif;
+    font-size: 28px;
+}
+
+.subTitPrincipal {
+    font-size: 30px;
+	font-family: 'Marko One', serif;
+	font-style: italic;
+}
+
+.subTitPrincipalInt {
+	font-family: 'Marko One', serif;
+    font-size: 20px;
+}
+
+.subTitSecund {
+    font-size: 24px;
+	font-family: 'Marko One', serif;
+	font-style: italic;
+}
+
+.subTitSecundInt {
+    font-size: 24px;
+	line-height: 28px;
+	font-family: 'Marko One', serif;
+	font-style: italic;
+	margin-top: 60px;
+}
+
+.LinkLeiaMais {
+	font-size: 18px;
+	}
+
+.TitPost {
+    font-size: 16px;
+	line-height: 18px;
+	font-family: 'Marko One', serif;
+	font-style: italic;
+	min-height: 45px;
+}
+
+.TitContinue {
+    font-size: 18px;
+	line-height: 22px;
+	font-family: 'Marko One', serif;
+	font-style: italic;
+}
+
+.TitWidget {
+    font-size: 18px;
+	line-height: 22px;
+	font-family: 'Marko One', serif;
+}
+
+.titRedesSociais {
+	color: #b68900;
+	}
+
+.resumoPost {
+	font-family: 'Yrsa', serif;
+	text-align: justify;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+
+.conteudo {
+	display: block;
+	margin: auto;
+	max-width: 900px;
+	}
+
+.center { 
+    height: 700px;
+    position: relative; 
+}
+
+.center2 { 
+    height: 700px;
+    position: relative;
+}
+
+.center2int { 
+    height: 300px;
+    position: relative;
+}
+
+.center p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.center2 img {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.center2int img {
+    margin: 0;
+    position: absolute;
+    top: 51%;
+    left: 15%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.parallax1 { 
+ /* The image used */
+    background-image: url("http://localhost:8080/wordpress1/wp-content/themes/storytelling/img/imgBg1.jpg");
+
+    /* Set a specific height */
+    height: 700px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+
+.parallax1int { 
+ /* The image used */
+    background-image: url("http://localhost:8080/wordpress1/wp-content/themes/storytelling/img/imgBgInt1Desk.jpg");
+
+    /* Set a specific height */
+    height: 300px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	/* background-image: url(../img/bg_osvaldo_abre.jpg); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover; */
+}
+
+.titBranco {
+	font-family: 'Yrsa', serif;
+	font-size: 30px;
+	line-height: 1.0;
+	color: #FFFFFF;
+}
+
+.txtBranco {
+	font-family: 'Yrsa', serif;
+	font-size: 26px;
+	color: #FFFFFF;
+}
+
+.bgMarrom {
+	background-color:#433012;
+}
+
+
+/* W3 Theme Amber */
+
+.w3-theme-l5 {color:#000 !important; background-color:#fffbf0 !important}
+.w3-theme-l4 {color:#000 !important; background-color:#fff3cd !important}
+.w3-theme-l3 {color:#000 !important; background-color:#ffe69b !important}
+.w3-theme-l2 {color:#000 !important; background-color:#ffda69 !important}
+.w3-theme-l1 {color:#000 !important; background-color:#ffcd37 !important}
+.w3-theme-d1 {color:#000 !important; background-color:#eab000 !important}
+.w3-theme-d2 {color:#fff !important; background-color:#d09c00 !important}
+.w3-theme-d3 {color:#fff !important; background-color:#b68900 !important}
+.w3-theme-d4 {color:#fff !important; background-color:#9c7500 !important}
+.w3-theme-d5 {color:#fff !important; background-color:#826200 !important}
+
+.w3-theme-light {color:#000 !important; background-color:#fffbf0 !important}
+.w3-theme-dark {color:#fff !important; background-color:#826200 !important}
+.w3-theme-action {color:#fff !important; background-color:#826200 !important}
+
+.w3-theme {color:#000 !important; background-color:#ffc107 !important}
+.w3-text-theme {color:#ffc107 !important}
+.w3-border-theme {border-color:#ffc107 !important}
+
+.w3-hover-theme:hover {color:#000 !important; background-color:#ffc107 !important}
+.w3-hover-text-theme:hover {color:#ffc107 !important}
+.w3-hover-border-theme:hover {border-color:#ffc107 !important}
+
+
+/* IDs */
+
+
+
+
+/* Media Queries Mobile */
+
+@media only screen and (max-device-width: 601px) {
+	
+
+p {
+	font-size: 18px!important;
+	line-height: 22px!important;
+	}
+
+.parallax1int { 
+    /* Set a specific height */
+    height: 150px!important;
+	}
+
+.logoInt {
+	width: 20%!important;
+	}
+
+.titPrincipal {
+    font-size: 28px!important;
+	line-height: 32px!important;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.titPrincipalInt {
+    font-size: 22px!important;
+	line-height: 24px!important;
+	text-align: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.subTitPrincipal {
+    font-size: 22px!important;
+	line-height: 26px!important;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.subTitPrincipalInt {
+    font-size: 18px!important;
+	line-height: 20px!important;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.subTitSecund {
+    font-size: 20px!important;
+	margin-top: 40px!important;
+}
+
+.txtBranco {
+	font-family: 'Yrsa', serif;
+	font-size: 26px;
+	line-height: 29px;
+	color: #FFFFFF;
+}
+
+.TitPost {
+    font-size: 18px!important;
+	line-height: 22px!important;
+}
+
+.resumoPost {
+	font-size: 20px!important;
+	line-height: 24px!important;
+	}	
+
+
+/* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
+.parallax1 {
+        background-attachment: scroll!important;
+		background-position: center!important;
+		/* Set a specific height */
+    	height: 320px!important; 
+    }
+
+.parallax1int {
+		background-image: url("http://localhost:8080/wordpress1/wp-content/themes/storytelling/img/imgBgInt1.jpg")!important;
+        background-attachment: scroll!important;
+		background-position: center!important;
+		/* Set a specific height */
+    	height: 130px!important; 
+    }
+
+.center2 img {
+	top: 160px!important;
+	width: 30%!important;
+}
+
+.center2int img {
+    top: 22%!important;
+    left: 15%!important;
+    -ms-transform: translate(-50%, -50%)!important;
+    transform: translate(-50%, -50%)!important;
+}
+
+
+.colPost {
+	text-align: center!important;
+	}
+
+
+.titRedesSociais {
+	text-align: center!important;
+	color: #b68900;
+	}
+
+
+}
+
+
+
+/* Media Queries Tablets */
+
+@media only screen and (max-device-width: 1024px) {
+
+
+.parallax1int {
+		background-image: url("http://localhost:8080/wordpress1/wp-content/themes/storytelling/img/imgBgInt1.jpg");
+        background-attachment: scroll;
+		background-position: center;
+		/* Set a specific height */
+    	height: 250px; 
+    }
+	
+
+.logoInt {
+	width: 13%;
+	}
+
+.center2int img {
+    top: 40%;
+    left: 15%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.navBarMob {
+	display: none;
+}
+
+p {
+	font-size: 22px;
+	line-height: 26px;
+	}
+	
+.titPrincipal {
+    font-size: 38px;
+}
+
+.subTitPrincipal {
+    font-size: 34px;
+}
+
+.subTitSecund {
+    font-size: 30px;
+}
+
+.TitPost {
+	text-align: left;
+    font-size: 22px;
+	line-height: 26px;
+}
+
+.resumoPost {
+	font-size: 20px;
+	line-height: 24px;
+	}
+
+	
+/* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
+.parallax1 {
+        background-attachment: scroll;
+		background-position: center;
+		/* Set a specific height */
+    	height: 550px; 
+    }
+
+.parallax1int {
+        background-attachment: scroll;
+		background-position: center;
+		/* Set a specific height */
+    	height: 250px; 
+    }
+
+.center2 img {
+	top: 260px;
+}
+
+	
+    
+}
+
+
+

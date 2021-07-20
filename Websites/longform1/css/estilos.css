@@ -1,0 +1,679 @@
+/* Global Styles */
+
+
+.linkRodape {
+	color: #ACD7FF;
+	}
+
+.linkRodape:hover {
+	color: #ACD7FF;
+	text-decoration: underline;
+	}
+
+.linkRodape:active {
+	color: #ACD7FF;
+	}
+
+.linkRodape:visited {
+	color: #ACD7FF;
+	}
+
+.destaqueTexto {
+	position: relative;
+	display: table;
+	width: 254px;
+	height: 280px;
+	text-align: center;
+	border-style: solid;
+	border-left: none;
+	border-right: none;
+	border-top-width: 10px;
+	border-top-color: #2a2a58;
+	border-bottom-width: 10px;
+	border-bottom-color: #2a2a58;
+	float: left;
+	margin: 10px;
+	padding-top: 20px;
+	}
+
+.destaqueTextoParagrafo {
+	font-family: "Arial Black", Impact, Haettenschweiler, Franklin Gothic Bold, sans-serif;
+	color: #2a2a58;
+	font-size: 5em;
+	font-weight: bold;
+	padding: 20px;
+	line-height: 40px;
+	text-align: center;
+	}
+
+.destaqueTexto p span {
+	font-family: "Arial", Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, sans-serif;
+	font-size: 28px;
+	font-weight: bold;
+	line-height: 8px;
+	}
+
+
+h1 {
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 26px;
+	font-weight: bolder;
+	}
+
+h2 {
+	font-family: 'Kanit', sans-serif;
+	margin-bottom: 20px;
+	font-size: 26px;
+	font-weight: bold;
+	}
+
+h3 {
+	font-family: 'Kanit', sans-serif;
+	margin-bottom: 20px;
+	font-size: 18px;
+	font-weight: bold;
+	}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #000000;
+	
+	}
+
+p {
+	margin-bottom: 0px;
+	font-size: 1.3em;
+	line-height: 32px;
+	text-align: justify;
+	}
+
+hr {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #337ab7;
+	width: 60%;
+	}
+
+hr.assinatura {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #337ab7;
+	width: 100%;
+	line-height: 0.1em;
+	margin-top: 13px;
+	margin-bottom: 13px;
+	}
+
+
+::selection {
+  background: #8a9cff; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #8a9cff; /* Gecko Browsers */
+}
+
+blockquote footer {
+	text-align: right;
+	font-size: 1.1em;
+	padding-top: 20px;
+	}
+
+blockquote p {
+	font-size: 1.3em;
+	font-weight: bold;
+	}
+
+.mapOsvaldo {
+	margin: auto;
+	display: block;
+	width: 100%;
+	}
+
+.bgMap {
+	background-color: #FFFFFF;
+	}
+
+.expediente {
+	background-color: #2a2a58;
+	}
+
+.expedienteCont {
+	max-width: 800px;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	color: #FFFFFF;
+	font-size: 1.2em;
+	}
+
+
+.creditos {
+	text-align: center;
+	background-color: #337ab7;
+	color: #FFFFFF;
+	font-size: medium;
+	line-height: 22px;
+	margin: auto;
+	max-width: 800px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	}
+
+.creditos p {
+	font-size: 1.0em;
+	}
+
+.bgVideo1 {
+	background-image: url(../img/bg_osvaldo_abre.jpg)
+	}
+
+.bgVideo2 {
+	background-image: url(../img/bg_video2.jpg)
+	}
+
+.bgVideo3 {
+	background-image: url(../img/bg_video3.jpg)
+	}
+
+.reguaDivide {
+	width: 100%;
+	border-style: dashed;
+	border-width: 1px;
+	border-color: #618FEB;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	}
+
+.txt50percent {
+	text-align: justify;
+	}
+
+.imgCenter {
+    display: block;
+    margin: auto;
+	padding-top: 20px;
+}
+
+.imgEsquerda {
+	float: left;
+	padding: 15px;
+}
+
+
+.imgTop {
+	padding-top: 20px;
+	}
+
+.justificado {
+	text-align:justify;
+	font-size: 16px;
+	}
+
+.legendaDir {
+	text-align: left;
+	font-style: italic;
+	font-size: 1.1em;
+	background-color: #E5E5E5;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-bottom: 30px;
+	}
+
+.creditoFoto {
+	text-align: left;
+	font-weight: bold;
+	font-size: 1.2em;
+	padding-left: 10px;
+	background-color: #E5E5E5;
+	}
+
+.legendaEsq {
+	text-align: left;
+	font-style: italic;
+	font-size: 1.1em;
+	background-color: #E5E5E5;
+	padding-left: 10px;
+	}
+
+.legendaGaleria {
+	display: block;
+	text-align: center;
+	font-style: italic;
+	font-size: medium;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	}
+
+.parte1 {
+	background-color: #FFFFFF;
+	}
+
+.conteudoCenter {
+	margin: auto;
+	max-width: 800px;
+	padding-bottom: 40px;
+}
+
+.imagemEsq {
+	float: left;
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-width: 1px;
+	}
+
+.imagemDir {
+	float: right;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-width: 1px;
+	}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.titulo-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: top;
+	padding-top: 25px;
+}
+
+.text-vertical-center h1 {
+    padding: 0;
+    font-size: 3.0em;
+    font-weight: 700;
+}
+
+.titulo-center h1 {
+	padding: 0;
+    font-size: 3.0em;
+    font-weight: 700;
+	background-color: rgba(0,0,0,0.4);
+}
+
+.rodape {
+	background-color: #2a2a58;
+	color: #FFFFFF;
+	padding: 10px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	}
+
+.iconeBranco {
+	color: #FFFFFF;
+	}
+
+.alinhaCentro {
+	text-align: center;
+	font-size: 16px;
+	}
+
+.list-inline {
+	text-align: center;
+	}
+
+/* Custom Button Styles */
+
+.btn-blue {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(51,122,183,0.5);
+}
+
+.btn-blue:hover,
+.btn-blue:focus,
+.btn-blue:active {
+    color: rgba(15,63,104,1);
+    background-color: rgba(255,255,255,0.7);
+}
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.btn-light {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}
+
+/* Custom Horizontal Rule */
+
+/*
+ hr.small {
+    max-width: 100px;
+} 
+*/
+
+
+/* Header */
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 600px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.titBranco {
+	color: #FFFFFF;
+	}
+
+/* Header 2 */
+
+.header2 {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+	/* background-color: rgba(0,0,0,0.5); */
+	/*  background-image: url(../img/bg_osvaldo_abre.jpg); */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Carrossel */
+
+.carrossel {
+    display: table;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.imgCarrossel {
+	display: block;
+    margin: auto;
+}
+
+/*
+ .carousel-indicators {
+	top: 490px;
+	}
+*/
+
+/* About */
+
+.about {
+    padding: 50px 0;
+	background-color: #FFFFFF;
+}
+
+/* Services */
+
+.services {
+    padding: 50px 0;
+}
+
+.service-item {
+    margin-bottom: 30px;
+}
+
+/* Callout */
+
+.callout {
+    display: table;
+    width: 100%;
+    height: 700px;
+    color: #fff;
+    background: url(../img/callout.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Estilos de Vídeo */
+
+.videoArea {
+	width: 100%;
+    height: 100%;
+	text-align: center;
+	}
+
+.bg_video{
+ position: fixed; 
+ right: 0; 
+ bottom: 0;
+ min-width: 100%; 
+ min-height: 100%;
+ width: auto; 
+ height: auto; 
+ z-index: -1000;
+ background: url(../img/foto_bgVideo.jpg) no-repeat;
+ background-size: cover;
+}
+
+/* Portfolio */
+
+.portfolio {
+    padding: 50px 0;
+	background-color: #FFFFFF;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.img-portfolio {
+    margin: 0 auto;
+}
+
+.img-portfolio:hover {
+    opacity: 0.8;
+}
+
+/* Call to Action */
+
+.call-to-action {
+    padding: 50px 0;
+}
+
+.call-to-action .btn {
+    margin: 10px;
+}
+
+/* Map */
+
+.map {
+    height: 500px;
+}
+
+.map iframe {
+    pointer-events: none;
+}
+
+/* Footer */
+
+footer {
+    padding: 0;
+	background-color: #FFFFFF;
+}
+
+#to-top {
+  display: none;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+}
+
+
+
+
+/* Header */
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.titBranco {
+	color: #FFFFFF;
+}
+
+/* Custom Button Styles */
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.btn-light {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}
+
+/* Estilos de Vídeo */
+
+.videoArea {
+	width: 100%;
+    height: 100%;
+	text-align: center;
+	}
+
+.bg_video{
+ position: fixed; 
+ right: 0; 
+ bottom: 0;
+ min-width: 100%; 
+ min-height: 100%;
+ width: auto; 
+ height: auto; 
+ z-index: -1000;
+ background: url(../img/bg_osvaldo_abre.jpg) no-repeat;
+ background-size: cover;
+}
+
+/* hack bootstrap */
+	 .col-xs-12 {
+        padding: 0;
+    }
+
+
+
+@media(max-width:768px) {
+    .map {
+        height: 75%;
+    }
+
+}
+
+
+@media(max-width:414px) {
+
+p {
+	margin-left: 10px;
+	margin-right: 10px;
+	}
+
+h2 {
+	margin-left: 10px;
+	}
+
+.cred {
+	display: block;
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+
+.header2 {
+	background-image: url(../img/foto_bgVideo.jpg);
+}
+
+.destaqueTexto {
+	padding-top: 10px;
+	height: 210px;
+	text-align: center;
+	margin: auto;
+	display: block;
+	width: 100%;
+	height: 240px;
+	margin-bottom: 20px;
+	}
+
+.imgEsquerda {
+	text-align: center;
+	padding: 15px;
+	display: block;
+	width: 100%;
+}
+
+.carousel-indicators {
+	bottom: 25px;
+	}
+
+
+}
+
+
+
+
+
+
+
+

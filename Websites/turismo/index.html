@@ -1,0 +1,394 @@
+﻿<!DOCTYPE html>
+<html>
+<title>Turismo</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="estilos.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-2017-kale w3-card-2">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right  w3-hover-teal" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-teal">Início</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-hover-teal">Apresentação</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-hover-teal">Destaques</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-hover-teal">Entre em Contato</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button w3-hover-teal" title="More">Veja Mais <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-2017-kale">
+        <a href="roteiros.html" class="w3-bar-item w3-button w3-hover-teal">Roteiros</a>
+        <a href="curiosidades.html" class="w3-bar-item w3-button w3-hover-teal">Curiosidades</a>
+        <a href="videos.html" class="w3-bar-item w3-button w3-hover-teal">Vídeos</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-2017-kale w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hover-teal">Apresentação</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hover-teal">Destaques</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-teal">Entre em Contato</a>
+  <a href="roteiros.html" class="w3-bar-item w3-button w3-padding-large w3-hover-teal">Roteiros</a>
+  <a href="curiosidades.html" class="w3-bar-item w3-button w3-padding-large w3-hover-teal">Curiosidades</a>
+  <a href="videos.html" class="w3-bar-item w3-button w3-padding-large w3-hover-teal">Vídeos</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images ( mySlides ) -->
+  
+  <div class="mySlides w3-display-container w3-center">
+  
+  	<div class="w3-display-middle">
+    	<h1 class="w3-text-white w3-2017-shaded-spruce w3-padding w3-border w3-border-white"><i class="fa fa-sun-o" aria-hidden="true"></i> TURISMO</h1>
+    </div>
+  
+    <img src="destaque_1.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-2017-text-shaded-spruce w3-padding-32 w3-hide-small">
+      <h2>Canto da praia de Imbituba</h2>
+      <p><b>Perfeito para suas férias em família!</b></p>   
+    </div>
+  </div>
+  
+  <div class="mySlides w3-display-container w3-center">
+  
+  	<div class="w3-display-middle">
+    	<h1 class="w3-text-white w3-2017-shaded-spruce w3-padding w3-border w3-border-white"><i class="fa fa-sun-o" aria-hidden="true"></i> TURISMO</h1>
+    </div>
+  
+    <img src="destaque_2.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-2017-text-shaded-spruce w3-padding-32 w3-hide-small">
+      <h2>Ilha de Ibiraquera</h2>
+      <p><b>Um passeio de barco que você não vai esquecer.</b></p>    
+    </div>
+  </div>
+  
+  <div class="mySlides w3-display-container w3-center">
+  
+  	<div class="w3-display-middle">
+    	<h1 class="w3-text-white w3-2017-shaded-spruce w3-padding w3-border w3-border-white"><i class="fa fa-sun-o" aria-hidden="true"></i> TURISMO</h1>
+    </div>
+  
+    <img src="destaque_3.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-2017-text-shaded-spruce w3-padding-32 w3-hide-small">
+      <h2>Lagoa de Ibiraquera</h2>
+      <p><b>Calma e tranquilidade na medida para um final de semana no litoral.</b></p>    
+    </div>
+  </div>
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">APRESENTAÇÃO</h2>
+    <p class="w3-opacity"><i>Modelo de Site para Agência de Turismo ou Pontos Turísticos</i></p>
+    <p class="w3-justify">Este é um site fictício criado com o propósito de apresentar um modelo de construção. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p><b>Roteiros</b></p>
+        <a href="roteiros.html" target="_self"><img src="destaque_peq_1.jpg" class="w3-round w3-margin-bottom w3-border w3-border-green" alt="Random Name" style="width:60%"></a>
+      </div>
+      <div class="w3-third">
+        <p><b>Curiosidades</b></p>
+        <a href="curiosidades.html" target="_self"><img src="destaque_peq_2.jpg" class="w3-round w3-margin-bottom w3-border w3-border-green" alt="Random Name" style="width:60%"></a>
+      </div>
+      <div class="w3-third">
+        <p><b>Vídeos</b></p>
+        <a href="videos.html" target="_self"><img src="destaque_peq_3.jpg" class="w3-round w3-margin-bottom w3-border w3-border-green" alt="Random Name" style="width:60%"></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Tour Section -->
+  <div class="w3-2017-shaded-spruce" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">DESTAQUES</h2>
+      <p class="w3-opacity w3-center"><i>Locais selecionados que você não pode perder!</i></p><br>
+
+      
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <span style="cursor:pointer"><img src="card_1.jpg" alt="New York" style="width:100%" class="w3-hover-opacity" onclick="document.getElementById('ticketModal').style.display='block'; openCity(event, 'London')"></span>
+          <div class="w3-container w3-white">
+            <p><b>Museu de História Natural</b></p>
+            <p class="w3-opacity">Quinta-feira - 14 Set 2017</p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class="w3-button w3-2017-kale w3-margin-bottom w3-hover-teal" onclick="document.getElementById('ticketModal').style.display='block'; openCity(event, 'London')">Veja Mais</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <span style="cursor:pointer"><img src="card_2.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity" onclick="document.getElementById('ticketModal').style.display='block'; openCity(event, 'Paris')"></span>
+          <div class="w3-container w3-white">
+            <p><b>Reserva Ecológica</b></p>
+            <p class="w3-opacity">Sexta-feira - 15 Set 2017</p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class="w3-button w3-2017-kale w3-margin-bottom w3-hover-teal" onclick="document.getElementById('ticketModal').style.display='block'; openCity(event, 'Paris')">Veja Mais</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <span style="cursor:pointer"><img src="card_3.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity" onclick="document.getElementById('ticketModal').style.display='block'; openCity(event, 'Tokyo');"></span>
+          <div class="w3-container w3-white">
+            <p><b>Sítio Arqueológico</b></p>
+            <p class="w3-opacity">Sábado - 16 Set 2017</p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class="w3-button w3-2017-kale w3-margin-bottom w3-hover-teal" onclick="document.getElementById('ticketModal').style.display='block'; openCity(event, 'Tokyo');">Veja Mais</button>
+          </div>
+        </div>
+      </div>
+      
+      <ul class="w3-ul w3-border w3-white w3-text-grey">
+        <li class="w3-padding">Agosto 2017 <span class="w3-tag w3-2017-greenery w3-margin-left">Promoção</span></li>
+        <li class="w3-padding">Julho 2017 <span class="w3-tag w3-2017-greenery w3-margin-left">Promoção</span></li>
+        <li class="w3-padding">Junho 2017 <span class="w3-badge w3-right w3-margin-right">5</span></li>
+      </ul>
+      
+      
+    </div>
+  </div>
+
+  <!-- Ticket Modal -->
+  
+  <div id="ticketModal" class="w3-modal">
+ <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+  <header class="w3-container w3-2017-shaded-spruce"> 
+   <span onclick="document.getElementById('ticketModal').style.display='none'" 
+   class="w3-button w3-hover-teal w3-xlarge w3-display-topright">&times;</span>
+   <h2>DESTAQUES</h2>
+  </header>
+
+  <div class="w3-bar w3-border-bottom">
+   <button class="tablink w3-bar-item w3-button w3-hover-teal" onclick="openCity(event, 'London')">Museu de História Natural</button>
+   <button class="tablink w3-bar-item w3-button w3-hover-teal" onclick="openCity(event, 'Paris')">Reserva Ecológica</button>
+   <button class="tablink w3-bar-item w3-button w3-hover-teal" onclick="openCity(event, 'Tokyo')">Sítio Arqueológico</button>
+  </div>
+
+  <div id="London" class="w3-container city">
+   <h1>Museu de História Natural</h1>
+   <img src="modal1.jpg" class="w3-image w3-center"><br><br>
+   <p><b>Sub-título detalhes da atração.</b></p>
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+  </div>
+
+  <div id="Paris" class="w3-container city">
+   <h1>Reserva Ecológica</h1>
+   <img src="modal2.jpg" class="w3-image w3-center"><br><br>
+   <p><b>Sub-título detalhes da atração.</b></p>
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+  </div>
+
+  <div id="Tokyo" class="w3-container city">
+   <h1>Sítio Arqueológico</h1>
+   <img src="modal3.jpg" class="w3-image w3-center"><br><br>
+   <p><b>Sub-título detalhes da atração.</b></p>
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+  </div>
+
+  <div class="w3-container w3-light-grey w3-padding">
+   <button class="w3-button w3-right w3-white w3-border" 
+   onclick="document.getElementById('ticketModal').style.display='none'">Fechar</button>
+  </div>
+ </div>
+</div>
+  
+  
+<script>
+document.getElementsByClassName("tablink")[0].click();
+
+function openCity(evt, cityName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].classList.remove("w3-2017-greenery");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.classList.add("w3-2017-greenery");
+}
+</script>
+  
+  
+  <!--
+  <div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('ticketModal').style.display='none'" 
+       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="How many?">
+        <p><label><i class="fa fa-user"></i> Send To</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Enter email">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+      </div>
+    </div>
+  </div>
+  -->
+  
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">ENTRE EM CONTATO</h2>
+    <p class="w3-opacity w3-center"><i>Agradecemos seu interesse e retornaremos a sua solicitação o mais breve possível!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Porto Alegre/RS - Brasil<br>
+        <i class="fa fa-phone" style="width:30px"></i> Celular: 55 51 5555 4444<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: falecom@turismo.com<br>
+      </div>
+      <div class="w3-col m6">
+      
+      <form name="contactform" method="post" action="send_form_email.php">
+     
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Seu nome" required name="first_name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Seu e-mail" required name="email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Sua mensagem" required name="comments">
+          
+          <input type="submit" value="Enviar" class="w3-button w3-section w3-right w3-2017-kale w3-hover-teal" style="width:120px">
+          
+        </form>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+ <!-- Formulário de Contato Referência  
+ 
+ 
+ <div class="w3-container formulario">
+	<div class="w3-content w3-section" style="max-width:1000px">	
+        <div class="w3-container w3-camo-dark-green">
+          <h2>Contato</h2>
+        </div>
+        <form name="contactform" method="post" action="send_form_email.php" class="w3-container w3-card-4 w3-white w3-margin-top">
+        <br>
+        <p>      
+        <label class="w3-text-grey" for="first_name">Nome</label>
+        <input class="w3-input w3-border" type="text" name="first_name" required>
+        </p>
+        <p>      
+        <label class="w3-text-grey" for="last_name">Sobrenome</label>
+        <input class="w3-input w3-border" type="text" name="last_name" required>
+        </p>
+        <p>      
+        <label class="w3-text-grey" for="email">E-mail</label>
+        <input class="w3-input w3-border" type="text" name="email" required>
+        </p>
+        <p>      
+        <label class="w3-text-grey" for="telephone">Telefone</label>
+        <input class="w3-input w3-border" type="text" name="telephone" required>
+        </p>
+        <p>      
+        <label class="w3-text-grey" for="comments">Mensagem</label>
+        <textarea class="w3-input w3-border" style="resize:none" name="comments"></textarea>
+        </p>
+        <br>
+        <p>
+        <input type="submit" value="Enviar" class="w3-btn w3-padding w3-camo-red" style="width:120px">
+        </p>          
+        </form>
+	</div>    
+</div>
+ 
+ 
+-->
+  
+  
+  
+<!-- End Page Content -->
+</div>
+<!-- Add Google Maps -->
+
+<div id="googleMap" style="width:100%;height:500px;"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(-30.1010427,-51.2990324,11),
+    zoom:10,
+};
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6Hxg-OASsSlQNG524jGplBJWDwXy00fs&callback=myMap"></script>
+
+
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Desenvolvido por <a href="http://www.tmachado.com.br" target="_blank">Thiago Machado</a></p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
