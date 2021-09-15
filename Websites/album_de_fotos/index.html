@@ -6,14 +6,12 @@
     <meta name="description" content="">
     <meta name="author" content="Thiago de Moura Machado">
     <meta name="generator" content="Hugo 0.79.0">
-    <title>Álbum de Fotos - Template - Bootstrap 5</title>
+    <title>Álbum de Fotos - Template Bootstrap</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
-
     
-
     <!-- Bootstrap core CSS -->
-<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
 	
@@ -44,12 +42,30 @@
         -moz-user-select: none;
         user-select: none;
       }
+	  
+	  .btHome {
+		  margin-left: 15px;
+		  margin-right: 15px;
+	  		}
+		
+		.LeadCol {
+			width: 70%;
+		}
 
       @media (min-width: 768px) {
+		  
         .bd-placeholder-img-lg {
           font-size: 3.5rem;
         }
+		
       }
+	  
+	  @media (max-width: 768px) {
+		  
+		.LeadCol {
+			width: 100%;
+		}
+	  
     </style>
 
     
@@ -62,7 +78,7 @@
       <div class="row">
         <div class="col-sm-8 col-md-7 py-4">
           <h4 class="text-white">Sobre</h4>
-          <p class="text-muted">Adicione alguma informação sobre o Álbum de Fotos abaixo, o autor, ou algum outro contexto de bastidores. Faça com que tenha algumas frases longas de maneira que os leitores consigam acesso a detalhes. Então crie links para as Redes Sociais ou páginas diversas de contato.</p>
+          <p class="text-muted">Este é um site responsivo produzido dentr do framework Bootstrap com interface visual orientada a uma apresentação de fotografias, divididas e organizadas em formato de diversas galerias. O template ainda está em construção e quando completo, terá diversas áreas internas.</p>
         </div>
         <div class="col-sm-4 offset-md-1 py-4">
           <h4 class="text-white">Contato</h4>
@@ -96,12 +112,13 @@
     <div class="card bgCinzaEscuro">
   	<div class="card-body">
     
-      <div class="col-lg-6 col-md-8 mx-auto">
-        <h1 class="fw-light txtBranco">Exemplo de Álbum de Fotos</h1>
-        <p class="lead txtBranco">Um texto curto relacionado À coleção correspondente — seus conteúdos, o criador, etc. Deixe que seja curta, simples e direta, mas não curta demais ou o público vai passar direto sem ler nenhuma das informações.</p>
+      <div class="col-lg-6 col-md-8 mx-auto LeadCol">
+        <h1 class="fw-light txtBranco"><strong>Álbum de Fotos</strong></h1>
+        <p class="lead txtBranco"><strong>UMA VISITA A YORK/UK</strong><br>
+        <br>York é uma cidade muralhada no nordeste de Inglaterra que foi fundada pelos antigos romanos. A imponente catedral gótica do século XIII, York Minster, tem vitrais medievais e 2 campanários funcionais. Suas antigas muralhas são uma das principais atrações.</p>
         <p>
-          <a href="#" class="btn btn-primary my-2">Plano de fundo imagem</a>
-          <a href="#" class="btn btn-secondary my-2">Plano de fundo cor</a>
+          <a href="#" class="btHome btn btn-primary my-2">Saiba Mais</a>
+          <a href="#" class="btHome btn btn-secondary my-2">Entre em Contato</a>
         </p>
       </div>
       
