@@ -81,6 +81,13 @@ li {
 	*/
 }
 
+.form-titulo h6 {
+	margin-block-start: 0.25em;
+	margin-block-end: 0.25em;
+	text-align: left;
+	text-decoration: none;
+}
+
 .data-nasc {
 	width: 50px;
 }
@@ -88,6 +95,11 @@ li {
 
 .div-form {
 	border: 1px solid #000000;
+	padding: 10px;
+}
+
+.div-form-botoes {
+	border: none;
 	padding: 10px;
 }
 
@@ -127,12 +139,16 @@ li {
 	padding: 50px;
 }
 
+.area1-internas {
+	height: 70px;
+	padding: 50px;
+}
+
 .area-100-pc {
 	display: inline-block;
 	/*margin-block-start: 0;
     margin-block-end: 0;
 	margin:0;*/
-	padding: 20x;
 	width: 100%;
 }
 
@@ -156,10 +172,20 @@ li {
 }
 
 
-
 .logoHome {
 	display: block;
 	margin: auto;
+}
+
+.logoInternas {
+	display: inline-block;
+	float: left;
+}
+
+.tituloInternas {
+	display: inline-block;
+	float: left;
+	margin-left: 25px;
 }
 
 .bnHome {
@@ -201,6 +227,10 @@ li {
 	margin-right: 50px;
 	margin-bottom: 50px;
 	text-align: justify;
+}
+
+.margemTop20 {
+	margin-top: 20px;
 }
 
 .margemTop50 {
@@ -268,8 +298,6 @@ li {
 	padding: 20px;
 	color: white;
 }
-
-
 
 .texto-branco {
 	color: white;

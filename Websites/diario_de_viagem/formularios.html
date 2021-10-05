@@ -23,90 +23,176 @@
 	
 		<div class="container">
 
-		<div class="area1 cor-OliveDrab">
-			<img src="img/simbolo_imperio_branco.png" class="logoHome" alt="" />
-			<h1><a href="index.html" class="texto-branco">Título Principal - H1</a></h1>
+		<div class="area1-internas cor-OliveDrab">
+			<img src="img/simbolo_imperio_branco_internas.png" class="logoInternas" alt="" />
+			<h1><a href="index.html" class="texto-branco tituloInternas">Título Principal - H1</a></h1>
 		</div>
 		
-		
-
-		
-		<div class="area-100-pc cor-LimeGreen margemTop50 margemBase50">
+		<div class="area-100-pc cor-LimeGreen margemTop20 margemBase50">
 			<div class="boxBranco">
 				<h3 class="texto-branco">Fale Conosco</h3>
 				<h4 class="texto-branco">Formulário de Contato</h4>
 				<p>
-				Utilize o formulário abaixo para enviar uma mensagem.
+					<b>Utilize o formulário abaixo para enviar uma mensagem.</b>
 				</p>
 				<hr>
 				
+				<form action="escolaCadastro.php" method="post">
+				
 				<div class="div-form">
-					Dados Pessoais:
-					
-					<div class="div-linha-form">
-					<label>Nome Completo:
-					<input type="text" name="nome"></label>
+				
+					<div class="form-titulo texto-branco">
+					<h6>Dados Pessoais:</h6>
 					</div>
 					
-					<div class="div-linha-form">
-					<label>Data de Nascimento (dd/mm/aaaa):
-					<input type="text" name="dia" class="data-nasc">/<input type="text" name="mes" class="data-nasc">/<input type="text" name="ano" class="data-nasc"></label>
-					</div>
-					
-					<div class="div-linha-form">
-					<label>Nome da mãe:
-					<input type="text" name="nome-mae"></label>
-					</div>
-					
-					<div class="div-linha-form">
-					<label>Nome do pai:
-					<input type="text" name="nome-pai"></label>
-					</div>
-					
-					<div class="div-linha-form">
-					<label>Telefone:
-					DDD (<input type="text" name="dia" class="data-nasc">) Tel:<input type="text" name="mes" class="data-nasc"> Ramal:<input type="text" name="ano" class="data-nasc"></label>
-					</div>
-					
-					<div class="div-linha-form">
-					<label>E-mail:
-					<input type="text" name="email"></label>
-					</div>
-					
+					<table>
+						<tr>
+							<td style="width: 450px; text-align: right">
+							Nome Completo:</td>
+							<td style="padding-left: 25px;">
+							<input type="text" name="nome" style="width: 315px;"></td>
+						</tr>
+						<tr>
+							<td style="width: 450px; text-align: right">
+							Data de Nascimento (dd/mm/aaaa):</td>
+							<td style="padding-left: 25px;">
+							<input type="text" name="dia" class="data-nasc">&nbsp;/&nbsp;<input type="text" name="mes" class="data-nasc">&nbsp;/&nbsp;<input type="text" name="ano" class="data-nasc"></td>
+						</tr>
+						<tr>
+							<td style="width: 450px; text-align: right">
+							Nome da Mãe:</td>
+							<td style="padding-left: 25px;">
+							<input type="text" name="nome" style="width: 315px;"></td>
+						</tr>
+						<tr>
+							<td style="width: 450px; text-align: right">
+							Nome do Pai:</td>
+							<td style="padding-left: 25px;">
+							<input type="text" name="nome" style="width: 315px;"></td>
+						</tr>
+						<tr>
+							<td style="width: 450px; text-align: right">
+							Telefone:</td>
+							<td style="padding-left: 25px;">
+							DDD (<input type="text" name="dia" class="data-nasc" style="width: 45px;">) Tel:<input type="text" name="mes" class="data-nasc" style="width: 90px;"> Ramal:<input type="text" name="ano" class="data-nasc" style="width: 45px;"></td>
+						</tr>
+						<tr>
+							<td style="width: 450px; text-align: right">
+							E-mail:</td>
+							<td style="padding-left: 25px;">
+							<input type="text" name="nome" style="width: 315px;"></td>
+						</tr>
+					</table>
 					
 				</div>
+				
+				<br />
+
+				<div class="div-form">
+				
+					<div class="form-titulo texto-branco">
+					<h6>Informações de Matrícula:</h6>
+					</div>
+					
+					<table style="padding-left: 225px">
+						
+						<tr>
+							<td style="width: 225px;">
+							Série:</td>
+							<td style="width: 125px;">
+							Turno:</td>
+							<td>
+							Atividades Extracurriculares:</td>
+						</tr>
+						<tr>
+						<td>
+						<select>
+							<option value="1">Maternal</option>
+							<option value="2">Jardim de Infância</option>
+							<option value="3">Pré-escolar</option>
+							<option value="4">Primeira Série</option>
+							</select></td>
+						<td>
+							<label><input type="radio" name="turno" value="RdTurnoM">Manhã</label><br>
+						</td>
+						<td>
+							<label><input type="checkbox" name="Info">Informática</label></td>
+						</tr>
+						
+						<tr>
+						<td>
+						&nbsp;</td>
+						<td>
+						<label><input type="radio" name="turno" value="RdTurnoT">Tarde</label></td>
+						<td>
+						<label><input type="checkbox" name="Mus">Música</label></td>
+						</tr>
+						
+						<tr>
+						<td>
+						&nbsp;</td>
+						<td>
+						&nbsp;</td>
+						<td>
+						<label><input type="checkbox" name="Bal">Ballet</label></td>
+						</tr>
+						
+						<tr>
+						<td>
+						&nbsp;</td>
+						<td>
+						&nbsp;</td>
+						<td>
+						<label><input type="checkbox" name="Pin">Pintura</label></td>
+						</tr>
+
+						<tr>
+						<td>
+						&nbsp;</td>
+						<td>
+						&nbsp;</td>
+						<td>
+						<label><input type="checkbox" name="Jud">Judô</label></td>
+						</tr>
+
+						<tr>
+						<td>
+						&nbsp;</td>
+						<td>
+						&nbsp;</td>
+						<td>
+						<label><input type="checkbox" name="Fut">Futebol</label></td>
+						</tr>
+
+					</table>
+					
+				</div>
+				
+				<br>
+				
+				<div class="div-form-botoes" style="text-align: center">
+				
+					<input type="submit" value="Enviar Formulário" style="padding: 8px; width: 140px">
+				
+					<input type="reset" value="Limpar Campos" style="padding: 8px; width: 140px">
+				
+				</div>
+				
+				</form>
 				
 			</div>
 		</div>
 		
 		
-		
-		<div class="margemTop50 margemBase50">
-			<img src="img/porto-alegre-1.jpg" alt="Foto de Porto Alegre e Rio Guaíba ao fundo" class="img-30porcento" />
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-		</div>
-		
-		<div class="margemTop50 margemBase50">
-		
-			<img src="img/porto-alegre-1.jpg" alt="Foto de Porto Alegre e Rio Guaíba ao fundo" class="img-30porcentoRight margemBase50" />
-			
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-			
-		</div>
-		
 		</div>
 		
 		<img src="img/img_wide_home.jpg" alt="" class="imagemWideHome" />
 		
-		
 		<div class="rodape-home cor-ForestGreen center-text">
 		<p class="padding-top-30 texto-branco">Thiago de Moura Machado - 2021<br>
-		Todos os Direitos Reservados<br>
-		<small>Proibida a reprodução parcial ou total deste website.</small></p>
+		Direitos Reservados<br>
+		<small>Template desenvolvido na turma de Desenvolvimento de Sistemas do Senac Tech RS/Poa.</small></p>
 		</div>
-
 
 	</body>
 </html>
