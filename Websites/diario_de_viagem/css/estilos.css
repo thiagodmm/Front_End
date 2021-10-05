@@ -24,7 +24,7 @@ h3 {
 
 h4 {
 	font-family: Tahoma, Verdana;
-	text-decoration: underline;
+	text-decoration: none;
 	font-size: 24px;
 	text-align: center;
 }
@@ -79,6 +79,27 @@ li {
 	padding-top: 15px;
 	display: inline;
 	*/
+}
+
+.data-nasc {
+	width: 50px;
+}
+
+
+.div-form {
+	border: 1px solid #000000;
+	padding: 10px;
+}
+
+.div-linha-form {
+	width: 100%;
+	text-align: center;
+	margin: 5px;
+}
+
+.div-linha-form label {
+	display: block;
+	margin: auto;
 }
 
 .listaVertical {
