@@ -10,53 +10,46 @@
 		<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	</head>
 	<body>		
-	
 		<div id="menu">
 			<ul>
 				<li><a href="index.html">Página Inicial</a></li>
-				<li><a href="#">Item Lista 2</a></li>
+				<li><a href="apresentacao.html">Apresentação</a></li>
 				<li><a href="#">Item Lista 3</a></li>
 				<li><a href="#">Item Lista 4</a></li>
 				<li><a href="formularios.html">Fale Conosco</a></li>
 			</ul>
 		</div>
-	
 		<div class="container">
-
 		<div class="area1-internas cor-OliveDrab">
 			<img src="img/simbolo_imperio_branco_internas.png" class="logoInternas" alt="" />
 			<h1><a href="index.html" class="texto-branco tituloInternas">Título Principal - H1</a></h1>
 		</div>
-		
-		<div class="area-100-pc cor-LimeGreen margemTop20 margemBase50">
+		<div class="area-100-pc cor-LightGreen margemTop20 margemBase50">
 			<div class="boxBranco">
-				<h3 class="texto-branco">Fale Conosco</h3>
-				<h4 class="texto-branco">Formulário de Contato</h4>
-				<p>
-					<b>Utilize o formulário abaixo para enviar uma mensagem.</b>
-				</p>
+				<h3 class="texto-cor-OliveDrab">Fale Conosco</h3>
+				<h4 class="texto-cor-OliveDrab">Formulário de Contato</h4>
+					<span class="texto-cor-OliveDrab">
+					<b>Utilize o formulário abaixo para enviar uma mensagem.</b><br>
+					<br>
+					</span>
 				<hr>
-				
 				<form action="escolaCadastro.php" method="post">
-				
 				<div class="div-form">
-				
-					<div class="form-titulo texto-branco">
+					<div class="form-titulo texto-cor-OliveDrab">
 					<h6>Dados Pessoais:</h6>
 					</div>
-					
 					<table>
 						<tr>
 							<td style="width: 450px; text-align: right">
-							Nome Completo:</td>
+							Nome do(a) aluno(a):</td>
 							<td style="padding-left: 25px;">
-							<input type="text" name="nome" style="width: 315px;"></td>
+							<input type="text" name="nome" style="width: 315px;" maxlength="3"></td>
 						</tr>
 						<tr>
 							<td style="width: 450px; text-align: right">
 							Data de Nascimento (dd/mm/aaaa):</td>
 							<td style="padding-left: 25px;">
-							<input type="text" name="dia" class="data-nasc">&nbsp;/&nbsp;<input type="text" name="mes" class="data-nasc">&nbsp;/&nbsp;<input type="text" name="ano" class="data-nasc"></td>
+							<input type="number" name="dia" class="data-nasc" pattern="[0-9]{2}+$" min="1" max="31">&nbsp;/&nbsp;<input type="number" name="mes" class="data-nasc" pattern="[0-9]{2}+$" min="1" max="12">&nbsp;/&nbsp;<input type="number" name="ano" class="data-nasc" pattern="[0-9]{4}+$" min="1900" max="2050"></td>
 						</tr>
 						<tr>
 							<td style="width: 450px; text-align: right">
@@ -83,19 +76,13 @@
 							<input type="text" name="nome" style="width: 315px;"></td>
 						</tr>
 					</table>
-					
 				</div>
-				
 				<br />
-
 				<div class="div-form">
-				
-					<div class="form-titulo texto-branco">
+					<div class="form-titulo texto-cor-OliveDrab">
 					<h6>Informações de Matrícula:</h6>
 					</div>
-					
 					<table style="padding-left: 225px">
-						
 						<tr>
 							<td style="width: 225px;">
 							Série:</td>
@@ -118,7 +105,6 @@
 						<td>
 							<label><input type="checkbox" name="Info">Informática</label></td>
 						</tr>
-						
 						<tr>
 						<td>
 						&nbsp;</td>
@@ -127,7 +113,6 @@
 						<td>
 						<label><input type="checkbox" name="Mus">Música</label></td>
 						</tr>
-						
 						<tr>
 						<td>
 						&nbsp;</td>
@@ -136,7 +121,6 @@
 						<td>
 						<label><input type="checkbox" name="Bal">Ballet</label></td>
 						</tr>
-						
 						<tr>
 						<td>
 						&nbsp;</td>
@@ -145,7 +129,6 @@
 						<td>
 						<label><input type="checkbox" name="Pin">Pintura</label></td>
 						</tr>
-
 						<tr>
 						<td>
 						&nbsp;</td>
@@ -154,7 +137,6 @@
 						<td>
 						<label><input type="checkbox" name="Jud">Judô</label></td>
 						</tr>
-
 						<tr>
 						<td>
 						&nbsp;</td>
@@ -163,36 +145,21 @@
 						<td>
 						<label><input type="checkbox" name="Fut">Futebol</label></td>
 						</tr>
-
 					</table>
-					
 				</div>
-				
 				<br>
-				
 				<div class="div-form-botoes" style="text-align: center">
-				
 					<input type="submit" value="Enviar Formulário" style="padding: 8px; width: 140px">
-				
 					<input type="reset" value="Limpar Campos" style="padding: 8px; width: 140px">
-				
 				</div>
-				
 				</form>
-				
 			</div>
 		</div>
-		
-		
 		</div>
-		
-		<img src="img/img_wide_home.jpg" alt="" class="imagemWideHome" />
-		
 		<div class="rodape-home cor-ForestGreen center-text">
 		<p class="padding-top-30 texto-branco">Thiago de Moura Machado - 2021<br>
 		Direitos Reservados<br>
-		<small>Template desenvolvido na turma de Desenvolvimento de Sistemas do Senac Tech RS/Poa.</small></p>
+		<small>Desenvolvimento de Sistemas | Senac Tech | RS/Poa.</small></p>
 		</div>
-
 	</body>
 </html>

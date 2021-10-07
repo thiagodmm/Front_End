@@ -1,3 +1,94 @@
+a {
+	color: white;
+}
+
+header {
+	padding: 5px;
+	margin: 5px;
+	background-color:DarkGreen;
+	text-align: center;
+}
+
+header p {
+	color: white;
+}
+
+header img {
+	margin-top: 10px;
+}
+
+nav {
+	padding: 5px;
+	margin: 5px;
+	background-color:OliveDrab;	
+	text-align: center;
+}
+
+nav p {
+	color: white;
+	margin-top: 10px;
+}
+
+article {
+	padding: 5px;
+	margin: 5px;
+	background-color:LightGreen;
+	width:68%;
+	display: inline-block;
+	float: left;
+	text-align: justify;
+	height: 600px;
+}
+
+article img {
+	width: 100%;
+}
+
+article p {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+
+section {
+	padding: 5px;
+	margin: 5px;
+	background-color:#d9ffd9;
+	text-align: justify;
+	height: 500px;
+	
+}
+
+aside {
+	padding: 5px;
+	margin: 5px;
+	background-color:SeaGreen;
+	width:28%;
+	display: inline-block;
+	height: 600px;
+}
+
+aside p,h5 {
+	color: white;
+}
+
+footer {
+	padding: 5px;
+	margin: 5px;
+	background-color:ForestGreen;
+	text-align: center;
+}
+
+footer p {
+	color: white;
+	margin-top: 10px;
+}
+
+
+
+
+
+
 body{
 	padding:0;
 	margin:0;
@@ -81,6 +172,40 @@ li {
 	*/
 }
 
+
+.flex-container {
+	background-color: LightGreen;
+	border-radius: 10px;
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.flex-container > div {
+	background-color: DarkGreen;
+	border: 1px solid;
+	border-radius: 10px;
+	flex: 1;
+	font-size: 20px;
+	font-family: Verdana;
+	line-height: 40px;
+	margin: 10px;
+	padding: 16px;
+	width: 60px;
+}
+
+.flex-container > div h5 {
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+.flex-container > div p {
+	text-align: justify;
+}
+
+
+
+
 .form-titulo h6 {
 	margin-block-start: 0.25em;
 	margin-block-end: 0.25em;
@@ -94,8 +219,9 @@ li {
 
 
 .div-form {
-	border: 1px solid #000000;
+	border: 1px solid OliveDrab;
 	padding: 10px;
+	background-color: #d9ffd9;
 }
 
 .div-form-botoes {
@@ -118,11 +244,6 @@ li {
 	display: block;
 }
 
-.container {
-	display: block;
-	margin: auto;
-	width: 100%;
-}
 
 .container {
 	display: block;
@@ -303,6 +424,10 @@ li {
 	color: white;
 }
 
+.texto-cor-OliveDrab {
+	color: OliveDrab;
+}
+
 .cor-LightGreen{
 	background-color: LightGreen;
 }
@@ -317,6 +442,10 @@ li {
 
 .cor-SeaGreen{
 	background-color: SeaGreen;
+}
+
+.cor-PaleGreen{
+	background-color: cor-PaleGreen;
 }
 
 .cor-Gold{
