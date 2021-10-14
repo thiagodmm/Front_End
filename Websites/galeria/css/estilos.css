@@ -9,8 +9,13 @@ header {
 	text-align: center;
 	padding-top: 15px;
 	padding-bottom: 20px;
-	background-image: url("../img/bg_table.jpg");
+	background-image: url("../img/bg_table_edit.jpg");
+	background-position: center center;
 	background-size: cover;
+}
+
+header h1 {
+	color:DarkGreen;
 }
 
 nav {
@@ -31,42 +36,36 @@ footer {
 }
 
 h1 {
-	font-family: Tahoma, Verdana;
 	font-weight: bold;
 	font-size: 45px;
 	text-align: center;
 }
 
 h2 {
-	font-family: Tahoma, Verdana;
 	font-weight: bold;
 	font-size: 40px;
 	text-align: center;
 }
 
 h3 {
-	font-family: Tahoma, Verdana;
 	font-weight: bold;
 	font-size: 35px;
 	text-align: center;
 }
 
 h4 {
-	font-family: Tahoma, Verdana;
 	font-weight: bold;
 	font-size: 30px;
 	text-align: center;
 }
 
 h5 {
-	font-family: Tahoma, Verdana;
 	font-weight: bold;
 	font-size: 25px;
 	text-align: center;
 }
 
 h6 {
-	font-family: Tahoma, Verdana;
 	font-weight: bold;
 	font-size: 20px;
 	text-align: center;
@@ -124,6 +123,4 @@ li {
 	color: white;
 }
 
-header h1 {
-	color:white;
-}
+
