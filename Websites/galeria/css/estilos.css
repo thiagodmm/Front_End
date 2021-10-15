@@ -124,3 +124,43 @@ li {
 }
 
 
+
+/* Mobile Phones */
+@media(max-width:600px) {
+	
+	.container {
+		width: 94%;
+	}
+	
+	.flex-container {
+		display: block;
+		width: 100%;
+		border-radius: 5px;
+		margin-bottom: 5px;
+	}
+
+.flex-container > div {
+	display: block;
+	margin: 0 auto;
+	margin-top: 15px;
+	width: 96%;
+    padding: 0px;
+}
+
+.flex-container > div p {
+	padding: 18px;
+}
+	
+}	
+
+	
+/* PCs Desktop */
+@media(max-width:1366px) {
+   
+}
+
+
+/* Tablets */
+@media(max-width:992px) {
+		   
+}
