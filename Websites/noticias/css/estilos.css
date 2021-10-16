@@ -1,0 +1,193 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	padding: 10px;
+	background-color: PaleGoldenRod;
+}
+
+h2 {
+    font-size: 40px;
+    color: White;
+    display: block;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+}
+
+header {
+	background-color: DarkSlateBlue;
+	}
+	
+header figure {
+	padding: 20px;
+	}
+
+#menu { 
+	overflow: hidden;
+	background-color: OrangeRed;
+}
+
+#menu a { 
+	float: left;
+	display: block;
+	text-align: center;
+	padding: 2%;
+	font-size: 16px;
+	text-decoration: none;
+	color: MidnightBlue;
+	background-color: Orange;
+}
+
+#menu a:hover {
+	color: Orange;
+	background-color: MidnightBlue;
+}
+
+#menu #menuSelected {
+	color: Orange;
+	background-color: MidnightBlue;
+	}
+
+#conteudo {
+	background-color: MediumSeaGreen;
+}
+
+#conteudo:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Estilos Linha de 2 Colunas */
+
+#coluna1, #coluna2 {
+	float: left;
+	width: 46%;
+	overflow: auto;
+	text-align: justify;
+	padding-right: 5%;
+	padding-top: 10px;
+	padding-bottom: 25px;
+	background-color: MintCream;
+	margin: 2%;	
+}
+
+#coluna1 {
+	padding-left: 5%;	
+}
+
+#coluna2 {
+	padding-left: 5%;	
+}
+
+#coluna1 figure img {
+	display: block;
+	width: 100%;
+	}
+
+#coluna2 figure img {
+    display: block;
+    width: 100%;
+    }
+	
+#coluna1 figure {
+	margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	}
+
+#coluna2 figure {
+	margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	}
+
+#conteudo #coluna1 p {
+	font-size: 13px;
+	line-height: 24px;
+	}
+
+#conteudo #coluna2 p {
+	font-size: 13px;
+	line-height: 24px;
+	}
+
+
+/* Estilos Linha de 3 Colunas */
+
+aside {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+#col1, #col2, #col3 {
+	float: left;
+	width: 29%;
+	overflow: auto;
+	text-align: justify;
+	background-color: MintCream;
+    margin: 2%;
+    padding: 2%;
+}
+
+#conteudo #col1 p {
+	font-size: 13px;
+	line-height: 24px;
+	}
+
+#conteudo #col2 p {
+	font-size: 13px;
+	line-height: 24px;
+	}
+
+#conteudo #col3 p {
+    font-size: 13px;
+    line-height: 24px;
+    }
+
+
+footer{
+	background-color: Olive;
+	color: PaleTurquoise;
+	text-align: center;
+	
+	padding: 20px;
+	margin-top: 20px;
+}
+
+
+/* Responsivo Mobile */
+
+@media screen and (max-width: 600px) {
+	
+	header figure img {
+		display: block;
+		margin: auto;
+		}
+	
+	#coluna1, #coluna2 { 
+		width: 100%;
+		margin: 0;
+	}
+    
+    #col1, #col2, #col3 {
+        width: 100%;
+		margin: 0;
+    }
+	
+	#conteudo {
+		padding: 10px;
+	}
+	
+	#menu a{
+		float: none;
+		width: 100%;
+	}
+	
+}
