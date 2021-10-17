@@ -9,7 +9,7 @@ body {
 
 h2 {
     font-size: 40px;
-    color: White;
+    color: MidnightBlue;
     display: block;
     margin: auto;
     padding: 15px;
@@ -93,6 +93,15 @@ header figure {
 	content: "";
 	display: table;
 	clear: both;
+}
+
+.containerMapa {
+    display: block;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
 }
 
 .margemP {
@@ -223,6 +232,49 @@ footer{
 /* Responsivo Mobile */
 
 @media screen and (max-width: 600px) {
+
+    .margemH4 {
+        margin-inline-start: 10px;
+        margin-inline-end: 10px;
+    }
+
+    #col-100pc figure {
+        display: block;
+        margin-inline-start: 10px;
+        margin-inline-end: 10px;
+    }
+
+    #col-40pc figure {
+        display: block;
+        margin-inline-start: 10px;
+        margin-inline-end: 10px;
+    }
+
+    .margemP {
+        font-size: 14px;
+        line-height: 24px;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 10px;
+        margin-inline-end: 10px;
+        text-align: justify;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 24px;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 10px;
+        margin-inline-end: 10px;
+        text-align: justify;
+    }
+
+    .containerMapa iframe {
+        width: 100%;
+    }
 	
 	header figure img {
 		display: block;
@@ -230,8 +282,8 @@ footer{
 		}
 
         .tit60p {
-            margin-inline-start: 40px;
-            margin-inline-end: 40px;
+            margin-inline-start: 10px;
+            margin-inline-end: 1px;
         }
 	
 	#coluna1, #coluna2 { 
@@ -259,8 +311,8 @@ footer{
             display: block;
             margin-block-start: 1em;
             margin-block-end: 1em;
-            margin-inline-start: 40px;
-            margin-inline-end: 40px;
+            margin-inline-start: 10px;
+            margin-inline-end: 10px;
         }
 
         #conteudo #col-60pc p {
