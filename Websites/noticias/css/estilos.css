@@ -4,8 +4,7 @@
 
 body {
 	font-family: Verdana, Geneva, sans-serif;
-	padding: 10px;
-	background-color: PaleGoldenRod;
+	background-color: AliceBlue;
 }
 
 h2 {
@@ -18,16 +17,44 @@ h2 {
 }
 
 header {
-	background-color: DarkSlateBlue;
+	background-color: MidnightBlue;
 	}
 	
 header figure {
 	padding: 20px;
 	}
 
+    #col-100pc figure img {
+        width: 100%;
+    }
+
+    #col-100pc figure {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 40px;
+        margin-inline-end: 40px;
+        padding-top: 10px;
+    }
+
+
+    #col-40pc {
+        width: 40%;
+        float: left;
+    }
+
+    #col-40pc figure img {
+        width: 100%;
+    }
+
+    #col-60pc {
+        width: 60%;
+        float: left;
+    }
+
 #menu { 
 	overflow: hidden;
-	background-color: OrangeRed;
+	background-color: DarkOrange;
 }
 
 #menu a { 
@@ -38,27 +65,58 @@ header figure {
 	font-size: 16px;
 	text-decoration: none;
 	color: MidnightBlue;
-	background-color: Orange;
+	background-color: Gold;
 }
 
 #menu a:hover {
-	color: Orange;
-	background-color: MidnightBlue;
+	color: Gold;
+	background-color: OrangeRed;
 }
 
 #menu #menuSelected {
-	color: Orange;
-	background-color: MidnightBlue;
+	color: Gold;
+	background-color: OrangeRed;
 	}
 
 #conteudo {
-	background-color: MediumSeaGreen;
+	background-color: DarkGrey;
+}
+
+#conteudo #col-60pc p {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: justify;
+    padding-right: 60px;
 }
 
 #conteudo:after {
 	content: "";
 	display: table;
 	clear: both;
+}
+
+.margemP {
+    font-size: 14px;
+    line-height: 24px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    text-align: justify;
+}
+
+.margemH4 {
+    font-size: 16px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+.tit60p {
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 /* Estilos Linha de 2 Colunas */
@@ -108,12 +166,12 @@ header figure {
 	}
 
 #conteudo #coluna1 p {
-	font-size: 13px;
+	font-size: 14px;
 	line-height: 24px;
 	}
 
 #conteudo #coluna2 p {
-	font-size: 13px;
+	font-size: 14px;
 	line-height: 24px;
 	}
 
@@ -137,23 +195,23 @@ aside {
 }
 
 #conteudo #col1 p {
-	font-size: 13px;
+	font-size: 14px;
 	line-height: 24px;
 	}
 
 #conteudo #col2 p {
-	font-size: 13px;
+	font-size: 14px;
 	line-height: 24px;
 	}
 
 #conteudo #col3 p {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 24px;
     }
 
 
 footer{
-	background-color: Olive;
+	background-color: DarkSlateBlue;
 	color: PaleTurquoise;
 	text-align: center;
 	
@@ -170,6 +228,11 @@ footer{
 		display: block;
 		margin: auto;
 		}
+
+        .tit60p {
+            margin-inline-start: 40px;
+            margin-inline-end: 40px;
+        }
 	
 	#coluna1, #coluna2 { 
 		width: 100%;
@@ -180,6 +243,29 @@ footer{
         width: 100%;
 		margin: 0;
     }
+
+    #col-40pc {
+        width: 100%;
+    }
+
+    #col-60pc {
+        width: 100%;
+    }
+
+    #conteudo #col-60pc p {
+
+        font-size: 14px;
+            line-height: 24px;
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 40px;
+            margin-inline-end: 40px;
+        }
+
+        #conteudo #col-60pc p {
+            padding-right: 0px;
+        }
 	
 	#conteudo {
 		padding: 10px;
