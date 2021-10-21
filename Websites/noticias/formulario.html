@@ -92,6 +92,12 @@
       }
     }
 
+    function minuscula(){
+			var x = document.getElementById("nomemini");
+			x.value = x.value.toLowerCase();
+			}
+			
+
   </script>
 
   <script type="text/javascript" src="js/jquery-1.2.6.min.js"></script>
@@ -142,7 +148,7 @@
           <br>
           <br>
           <label>Email: <br>
-            <input type="text" name="email" maxlength="40" size="40" placeholder="seuemail@provedor.com">
+            <input type="text" name="email" maxlength="40" size="40" placeholder="seuemail@provedor.com" id="nomemini" onkeyup="minuscula()">
           </label>
           <br>
           <br>
