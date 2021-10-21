@@ -1,0 +1,41 @@
+div {
+	width: 200px;
+	height: 100px;
+	margin: 10px;
+	border: 5px black dashed;
+}
+
+#div1 {
+	background-color: yellow;
+}
+
+#div2 {
+	background-color: #c1a4cd;
+	background-clip: padding-box;
+}
+
+#div3 {
+	background-image: url("banner_ret1.jpg");
+	background-repeat: no-repeat;
+}
+
+#div4 {
+	background-image: url("banner_ret2.jpg");
+	background-repeat: no-repeat;
+	background-origin: border-box;
+}
+
+#div5 {
+	background-image: url("img_wide_home.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: yellow;
+}
+
+body {
+	background-image: url("img_wide_home2.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top center;
+}
+

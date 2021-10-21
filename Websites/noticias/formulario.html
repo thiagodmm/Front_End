@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Formulário - Validando com Javascript</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Template de Html e CSS para site de Notícias e Artigos">
+  <meta name="keywords" content="HTML, CSS">
+  <meta name="author" content="Thiago Machado">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+  <script type="text/javascript">
+
+    /* Valida Dados */
+
+    function validar() {
+
+      var nome = form.nome.value;
+      var cpf = form.cpf.value;
+      var email = form.email.value;
+      var telefone = form.telefone.value;
+      var endereco = form.endereco.value;
+      var senha = form.senha.value;
+
+      if (nome == "" || nome.length <= 5) {
+        alert('Informe seu nome completo.');
+        form.nome.focus();
+        return false;
+      }
+
+      if (cpf == "") {
+        alert('Informe o seu CPF.');
+        form.cpf.focus();
+        return false;
+      }
+
+      if (email == "" || email.indexOf('@') == -1) {
+        alert('Informe e-mail válido.');
+        form.email.focus();
+        return false;
+      }
+
+      if (telefone == "") {
+        alert('Informe o seu telefone.');
+        form.telefone.focus();
+        return false;
+      }
+
+      if (endereco == "") {
+        alert('Informe o seu endereço.');
+        form.endereco.focus();
+        return false;
+      }
+
+      if (senha == "" || senha.length <= 5) {
+        alert('Informe senha com no mínimo 6 caracteres');
+        form.senha.focus();
+        return false;
+      }
+
+    }
+
+
+
+    /* Máscaras telefone */
+
+    function mascara(o, f) {
+      v_obj = o
+      v_fun = f
+      setTimeout("execmascara()", 1)
+    }
+
+    function execmascara() {
+      v_obj.value = v_fun(v_obj.value)
+    }
+
+    function mtel(v) {
+      v = v.replace(/\D/g, ""); //Remove tudo o que não é dígito
+      v = v.replace(/^(\d{2})(\d)/g, "($1) $2"); //Coloca parênteses em volta dos dois primeiros dígitos
+      v = v.replace(/(\d)(\d{4})$/, "$1-$2"); //Coloca hífen entre o quarto e o quinto dígitos
+      return v;
+    }
+
+    function id(el) {
+      return document.getElementById(el);
+    }
+
+    window.onload = function () {
+      id('telefone').onkeypress = function () {
+        mascara(this, mtel);
+      }
+    }
+
+  </script>
+
+  <script type="text/javascript" src="js/jquery-1.2.6.min.js"></script>
+  <script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $("#cpf").mask("999.999.999-99");
+    });
+  </script>
+
+</head>
+
+<body>
+
+  <header>
+    <figure>
+      <img src="img/corvo_branco_100px.png" alt="Corvo Logo" title="pássaro símbolo" />
+    </figure>
+  </header>
+
+  <nav id="menu">
+    <a href="index.html" target="_self">Home</a>
+    <a href="news.html" target="_self">News</a>
+    <a href="about.html" target="_self">About</a>
+    <a id="menuSelected">Formulário</a>
+  </nav>
+
+  <article id="conteudo">
+
+    <div id="col-100pc">
+
+      <h2>Formulário</h2>
+
+      <form name="form" action="" method="post">
+        <fieldset>
+
+          <legend>Cadastro de Usuário:</legend>
+          <br>
+          <label>Nome Completo:<br>
+            <input type="text" name="nome" maxlength="40" size="40">
+          </label>
+          <br>
+          <br>
+          <label>CPF:<br>
+            <input type="text" name="cpf" id="cpf" maxlength="20" size="20">
+          </label>
+          <br>
+          <br>
+          <label>Email: <br>
+            <input type="text" name="email" maxlength="40" size="40" placeholder="seuemail@provedor.com">
+          </label>
+          <br>
+          <br>
+          <label>Telefone: <br>
+            <input type="text" name="telefone" id="telefone" maxlength="15" size="20">
+          </label>
+          <br>
+          <br>
+          <label>Endereço: <br>
+            <input type="text" name="endereco" maxlength="40" size="40">
+          </label>
+          <br>
+          <br>
+          <label>Informe a Senha: <br>
+            <input type="password" name="senha" maxlength="8" size="8">
+          </label>
+          <br>
+          <br>
+          <input type="submit" onclick="return validar()"><br>
+          <br>
+          <br>
+          <hr>
+
+          <!--
+          <label>Data de Nascimento:<br>
+            <input type="date" name="data" required />
+          </label>
+          <br>
+          <br>
+          <label>Turno da Aula:<br>
+            <br>
+            <input type="radio" name="turno" value="manha"> Manhã
+            <input type="radio" name="turno" value="tarde"> Tarde
+            <input type="radio" name="turno" value="noite"> Noite
+          </label>
+          <br>
+          <br>
+          <label>Disciplinas Cursadas:<br>
+            <br>
+            <input type="checkbox" name="java" value="java">Java<br>
+            <input type="checkbox" name="c" value="c#">C#<br>
+            <input type="checkbox" name="html" value="html">HTML<br>
+          </label>
+          -->
+
+        </fieldset>
+      </form>
+
+    </div>
+
+
+  </article>
+
+  <footer>
+    <h3>Footer</h3>
+    <h6>2021 - Direitos Reservados.</h6>
+  </footer>
+
+</body>
+
+</html>

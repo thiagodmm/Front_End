@@ -1,0 +1,27 @@
+
+h2 {
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 20pt;
+}
+
+p {
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 10pt;
+}
+
+.centerItalic {
+	text-align: center;
+	font-style: italic;
+}
+
+.right {
+	text-align: right;
+}
+
+.bgBlue {
+	background-color: blue;
+}
+
+.bgRed {
+	background-color: red;
+}
