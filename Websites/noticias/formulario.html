@@ -60,6 +60,28 @@
       }
 
     }
+	
+	
+	/* Máscaras CPF */
+	
+	function fMasc(objeto,mascara) {  
+	obj=objeto
+	masc=mascara
+	setTimeout("fMascEx()",1)
+	}
+
+	function fMascEx() {  
+	obj.value=masc(obj.value)
+	}
+
+	function mCPF(cpf){
+	cpf=cpf.replace(/\D/g,"")
+	cpf=cpf.replace(/(\d{3})(\d)/,"$1.$2")
+	cpf=cpf.replace(/(\d{3})(\d)/,"$1.$2")
+	cpf=cpf.replace(/(\d{3})(\d{1,2})$/,"$1-$2")
+	return cpf;
+	}
+
 
 
 
@@ -96,7 +118,20 @@
 			var x = document.getElementById("nomemini");
 			x.value = x.value.toLowerCase();
 			}
-			
+	
+	/* Validar senhas */
+	
+	function validarSenha(){
+
+			var senha = document.formuser.senha.value;
+
+			var confirma_senha = document.formuser.confirma_senha.value;
+				if (senha == confirma_senha){
+					alert("Ok, senha iguais!");
+				}else{
+					alert("Atenção, senhas diferentes");
+				}
+			}	
 
   </script>
 
@@ -128,76 +163,117 @@
 
   <article id="conteudo">
 
-    <div id="col-100pc">
+    <h2>Formulário</h2>
 
-      <h2>Formulário</h2>
+    <!-- Linha com 2 Colunas Início -->
 
-      <form name="form" action="" method="post">
-        <fieldset>
+    <div id="coluna1">
+        <h3>Coluna 1</h3>
+        <figure>
+            <img src="img/cidade_vertical.jpg" alt="cidade" title="foto vertical de uma cidade" />
+        </figure>
+    </div>
 
-          <legend>Cadastro de Usuário:</legend>
-          <br>
-          <label>Nome Completo:<br>
-            <input type="text" name="nome" maxlength="40" size="40">
-          </label>
-          <br>
-          <br>
-          <label>CPF:<br>
-            <input type="text" name="cpf" id="cpf" maxlength="20" size="20">
-          </label>
-          <br>
-          <br>
-          <label>Email: <br>
-            <input type="text" name="email" maxlength="40" size="40" placeholder="seuemail@provedor.com" id="nomemini" onkeyup="minuscula()">
-          </label>
-          <br>
-          <br>
-          <label>Telefone: <br>
-            <input type="text" name="telefone" id="telefone" maxlength="15" size="20">
-          </label>
-          <br>
-          <br>
-          <label>Endereço: <br>
-            <input type="text" name="endereco" maxlength="40" size="40">
-          </label>
-          <br>
-          <br>
-          <label>Informe a Senha: <br>
-            <input type="password" name="senha" maxlength="8" size="8">
-          </label>
-          <br>
-          <br>
-          <input type="submit" onclick="return validar()"><br>
-          <br>
-          <br>
-          <hr>
+    <div id="coluna2">
 
-          <!--
-          <label>Data de Nascimento:<br>
-            <input type="date" name="data" required />
-          </label>
-          <br>
-          <br>
-          <label>Turno da Aula:<br>
-            <br>
-            <input type="radio" name="turno" value="manha"> Manhã
-            <input type="radio" name="turno" value="tarde"> Tarde
-            <input type="radio" name="turno" value="noite"> Noite
-          </label>
-          <br>
-          <br>
-          <label>Disciplinas Cursadas:<br>
-            <br>
-            <input type="checkbox" name="java" value="java">Java<br>
-            <input type="checkbox" name="c" value="c#">C#<br>
-            <input type="checkbox" name="html" value="html">HTML<br>
-          </label>
-          -->
+        <h3>Coluna 2</h3>
 
-        </fieldset>
-      </form>
+        <form name="formuser" action="" method="post">
+            <fieldset>
+    
+              <legend><strong>Cadastro de Usuário:</strong></legend>
+              <br>
+              <br>
+			  <p>Envie sua foto: <input id="img-input" type="file" name="imagem"></p>
+			  <div id="img-container">
+				<img id="preview" src="">
+			  </div>
+			  <script>
+				/* Mostra imagem */
+
+				function readImage() {
+
+						if (this.files && this.files[0]) {
+							var file = new FileReader();
+							file.onload = function(e) {
+								document.getElementById("preview").src = e.target.result;
+							};    
+							file.readAsDataURL(this.files[0]);
+						}
+					}
+					document.getElementById("img-input").addEventListener("change", readImage, false);
+				</script>
+			  
+			  <br>
+              <label>Nome Completo*:<br>
+                <input type="text" name="nome" maxlength="40" size="40">
+              </label>
+              <br>
+              <br>
+              <label>CPF*:<br>
+                <input type="text" name="cpf" id="cpf" onkeydown="fMasc( this, mCPF);" maxlength="14" size="14">
+              </label>
+              <br>
+              <br>
+              <label>Email*: <br>
+                <input type="text" name="email" maxlength="40" size="40" placeholder="seuemail@provedor.com" id="nomemini" onkeyup="minuscula()">
+              </label>
+              <br>
+              <br>
+              <label>Telefone*: <br>
+                <input type="text" name="telefone" id="telefone" maxlength="15" size="20">
+              </label>
+              <br>
+              <br>
+              <label>Endereço*: <br>
+                <input type="text" name="endereco" maxlength="40" size="40">
+              </label>
+              <br>
+              <br>
+              <label>Informe a Senha <small><i>(Mínimo de 6 caracteres</i>)</small>*: <br>
+                <input type="password" name="senha" maxlength="8" size="8"><br>
+				
+				Confirmar senha:<br>
+				<input type="password" name="confirma_senha" maxlength="8" size="8"><br>
+				<input type="button" value="Confirmar Senha" onclick="validarSenha()">
+              </label>
+              <br>
+              <br>
+              <br>
+              <input type="submit" onclick="return validar()" class="btSubmit"><br>
+              <br>
+              <p><small><i>* Todos os campos são obrigatórios.</i></small></p>
+              <br>
+              <hr>
+              <br>
+              <!--
+              <label>Data de Nascimento:<br>
+                <input type="date" name="data" required />
+              </label>
+              <br>
+              <br>
+              <label>Turno da Aula:<br>
+                <br>
+                <input type="radio" name="turno" value="manha"> Manhã
+                <input type="radio" name="turno" value="tarde"> Tarde
+                <input type="radio" name="turno" value="noite"> Noite
+              </label>
+              <br>
+              <br>
+              <label>Disciplinas Cursadas:<br>
+                <br>
+                <input type="checkbox" name="java" value="java">Java<br>
+                <input type="checkbox" name="c" value="c#">C#<br>
+                <input type="checkbox" name="html" value="html">HTML<br>
+              </label>
+              -->
+    
+            </fieldset>
+          </form>
 
     </div>
+
+
 
 
   </article>

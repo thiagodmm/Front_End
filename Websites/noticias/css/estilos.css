@@ -57,6 +57,8 @@ header figure {
         width: 60%;
         float: left;
     }
+	
+
 
 #menu { 
 	overflow: hidden;
@@ -237,6 +239,15 @@ footer{
 #col-100pc form {
     margin: 10px;
     padding:10px;
+}
+
+.btSubmit {
+    padding: 10px;
+    width: 100px;
+    border: 1px solid MidnightBlue;
+    color: White;
+    background-color: DarkSlateBlue;
+    border-radius: 5px;
 }
 
 
