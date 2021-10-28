@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap 4 Template</title>
+  <link rel="stylesheet" href="estilo.css">
+  <!-- Links do Bootstrap 4 -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <style>
+      .fakeimg {
+          height: 200px;
+          background-color:rgb(255, 0, 212);
+      }
+  </style>
+
+<!--Plugins de validação do telefone-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+
+</head>
+
+<body>
+<header id="container-fluid">
+    <div class="jumbotron text-center" style="margin-bottom:0">
+        <h1>SITE DA SOPHIA E DO THIAGO - FALE CONOSCO</h1>
+    </div>
+</header>
+<!-- Cria a estrutura da Barra de Navegação -->
+<nav class="navbar navbar-light">
+
+    <!-- Marca a Barra de Navegação -->
+    <a class="navbar-brand" href="#">Navbar</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15" aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Botão Recolhível -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent15">
+        <!-- Links da Nav Bar em Lista -->
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item bgBtNav"><a class="nav-link MenuItem" href="index.html">Home</a></li>
+            <li class="nav-item bgBtNav"><a class="nav-link MenuItem" href="#">Notícias</a></li>
+            <li class="nav-item bgBtNav active"><a class="nav-link MenuItem" href="#">Fale Conosco</a></li>
+        </ul>
+    </div>
+</nav>
+ 
+<!-- Início da Section -->
+
+<section class="container" style="margin-top: 30px">
+    <div class="row">
+        <!-- Bloco do Formulário -->
+        <div class="container">
+            <form class="form-horizontal" action="#">
+
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="nome">Nome:</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite o nome completo" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="email">E-mail:</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Digite um e-mail válido" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="telefone">Telefone:</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="telefone" name="telefone" pattern="\([0-9]{2}\)[\s][0-9]{4}-[0-9]{4,5}" />
+                        <!-- script de mascara -->
+						<script type="text/javascript">$("#telefone").mask("(00) 0000-00009");</script>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="endereco">Endereço:</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="endereco" name="endereco" placeholder="Digite seu endereço" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="senha">Senha:</label>
+                    <div class="col-sm-10">
+                        <input type="password" class="form-control" id="senha" name="senha" placeholder="Informe a senha" required>
+                    </div>
+                </div>
+
+                <!-- Botão Enviar -->
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+</section>
+
+<footer class="jumbotron text-center" style="margin-bottom:0">
+    <p class="text-danger">2021 - Thiago Machado<br>
+    <small>Todos os Direitos Reservados</small></p>
+</footer>
+
+</body>
+
+</html>

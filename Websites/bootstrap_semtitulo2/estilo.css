@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+.bgBtNav {
+    background-color: lightgray;
+}
+
+.MenuItem {
+    margin-left: 10px;
+}
+
+.navbar {
+    background-color: cornflowerblue;
+}
