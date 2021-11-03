@@ -6,15 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Template de website responsivo construído em Bootstrap 5.0">
   <meta name="author" content="Thiago de Moura Machado">
-  <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap">
   <title>Uma Semana nos Alpes Italianos - Um Roteiro de Viagem</title>
 
-  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
-
-  <!-- Estilos do Site -->
-  <link rel="stylesheet" type="text/css" href="css/estilos.css">
-
-  <!-- Link para CSS do Bootstrap -->
+  <!-- Bootstrap core CSS -->
   <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <style>
@@ -33,14 +27,14 @@
     }
   </style>
 
-  <!-- Estilos Customizados para este Template -->
+
+  <!-- Custom styles for this template -->
   <link href="css/carousel.css" rel="stylesheet">
 </head>
 
 <body>
 
   <header>
-
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Roteiro de Viagem: Alpes Italianos</a>
@@ -49,27 +43,43 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item active">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="galeria.html">Galeria</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contato.html">Contato</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Digite aqui..." aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Pesquisar</button>
-          </form>
+
+          <div class="navbar-nav me-auto mb-2 mb-md-0">
+
+            <form class="d-flex" style="margin-left: 680px;">
+              <input class="form-control me-2" type="search" placeholder="Digite aqui..." aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+            </form>
+
+          </div>
+
         </div>
       </div>
     </nav>
-
-
   </header>
+
+  <!-- A grey horizontal navbar that becomes vertical on small screens -->
+  <nav class="navbar navbar-expand-sm bg-light">
+
+    <div class="container-fluid">
+      <!-- Links -->
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Galeria</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contato</a>
+        </li>
+      </ul>
+    </div>
+
+  </nav>
+
+
+
 
   <main>
 
@@ -87,7 +97,7 @@
               <h1>Uma experiência inesquecível.</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget
                 metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="contato.html" role="button">Contrate o Pacote</a></p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Contrate o Pacote</a></p>
             </div>
           </div>
         </div>
@@ -98,7 +108,7 @@
               <h1>Visuais arrebatadores.</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget
                 metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="contato.html" role="button">Saiba Mais</a></p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Saiba Mais</a></p>
             </div>
           </div>
         </div>
@@ -109,7 +119,7 @@
               <h1>Uma semana para ficar registrada na memória.</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget
                 metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="galeria.html" role="button">Visite a Galeria de Fotos</a></p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Visite a Galeria de Fotos</a></p>
             </div>
           </div>
         </div>
@@ -125,64 +135,42 @@
     </div>
 
 
-    <!-- Chamadas e Destaques -->
-    <!-- Envolver o restante da página em outro Container para centralizar o conteúdo. -->
+    <!-- Chamadas e Destaques
+  ================================================== -->
+    <!-- Envolver o restante da página em outro Container paracentralizar o conteúdo. -->
 
     <div class="container marketing">
 
-      <!-- Três colunas de texto abaixo do Carrossel -->
+      <!-- três colunas de texto abaixo do Carrossel -->
       <div class="row">
         <div class="col-lg-4">
           <img src="img/destaque3_250x250px.jpg" class="rounded-circle" width="140" height="140">
-          <h2>Locais Históricos</h2>
+          <h2>Heading</h2>
           <p style="text-align:justify">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id
             dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
             Praesent commodo cursus magna.</p>
-          <p><a class="btn btn-primary" href="#" role="button">Veja mais Detalhes &raquo;</a></p>
+          <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img src="img/destaque2_250x250px.jpg" class="rounded-circle" width="140" height="140">
-          <h2>Canoagem</h2>
+          <h2>Heading</h2>
           <p style="text-align:justify">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia
             odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus
             commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-primary" href="#" role="button">Veja mais Detalhes &raquo;</a></p>
+          <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img src="img/destaque1_250x250px.jpg" class="rounded-circle" width="140" height="140">
-          <h2>Trekking e Cavernas</h2>
+          <h2>Heading</h2>
           <p style="text-align:justify">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
             Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris
             condimentum nibh.</p>
-          <p><a class="btn btn-primary" href="#" role="button">Veja mais Detalhes &raquo;</a></p>
+          <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
 
       <!-- Início dos Destaques -->
-
-      <hr class="featurette-divider">
-
-      <!-- Início do Player de Vídeo You Tube -->
-
-      <div class="row featurette">
-        <div class="col-md-6 order-md-2">
-          <h2 class="featurette-heading">Lago Braies<br>
-            <span class="text-muted">Vídeo oficial.</span>
-          </h2>
-          <p class="lead">"On our vacation we had the chance to make a dream come true. We have seen crazy, unspoiled
-            places of the wildest nature."</p>
-        </div>
-        <div class="col-md-6 order-md-1">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/fadeNgB2TpA" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-        </div>
-      </div>
-
-      <!-- Final do Player de Vídeo You Tube -->
-
 
       <hr class="featurette-divider">
 
@@ -241,15 +229,14 @@
 
     <!-- Footer -->
     <footer class="container">
-      <p class="float-end"><a href="#">Voltar para o Topo</a></p>
-      <p>&copy; 2021 - Thiago de Moura Machado. &middot;
-        <a href="http://www.tmachado.com.br">Site Pessoal</a> &middot;
-        <a href="mailto:thiago@tmachado.com.br">Entre em Contato</a>
-      </p>
+      <p class="float-end"><a href="#">Back to top</a></p>
+      <p>&copy; 2017-2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
     </footer>
   </main>
 
+
   <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+
 
 </body>
 
