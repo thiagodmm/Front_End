@@ -1,8 +1,0 @@
-
-01/11/2021
-
-
-Vídeo You Tube
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fadeNgB2TpA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-

@@ -1,0 +1,43 @@
+
+01/11/2021
+
+
+Vídeo You Tube
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fadeNgB2TpA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+03/11
+
+
+https://www.tmachado.com.br/front_end/carrossel/index.html
+
+
+
+style="width:100%; height:auto" id="img-car-1"
+
+
+
+
+
+
+
+
+
+
+<h2>O LAGO BRAIES</h2>
+
+<p>
+O Lago Braies (Pragser Wildsee em alemão) é um pequeno lago alpino localizado no Vale Braies (um vale lateral do Vale Puster) a 1.496 m acima do nível do mar no município de Braies, cerca de 97 km de Bolzano.</p>
+
+<h3>TOPÔNIMO</h3>
+<p>
+O nome do lago é atestado em 1296 como Hünz an den Se , em 1330 como Praxersee, em 1400 como See in Prags, em 1620 como Pragsersee e em 1885 como Pragser Wildsee; o nome de selvagem ("selvagem") é, portanto, do século XIX, e talvez esteja ligado ao montanhismo que naquele período começou a se tornar um fenômeno de massa. O nome italiano "Lago di Braies" data de 1940, enquanto no primeiro Manual de 1923 ele ainda aparece apenas como "Pragser Wildsee".</p>
+
+<h3>GEOGRAFIA</h3>
+<p>
+O lago fica no sopé da imponente face rochosa do Croda del Becco (Seekofel alemão, Ladin Sass dla Porta 2.810m) e está localizado dentro do parque natural Fanes - Sennes e Braies.</p>
+<p>
+Tem uma extensão de cerca de 33 hectares com uma extensão de 1,2 km e uma largura de 300-400 metros. É um dos lagos mais profundos da província autônoma de Bolzano, com profundidade máxima de 36 metros e profundidade média de 17 metros. [1] A temperatura máxima da água é 14°C. É um lago de barragem, pois sua criação se deve à barragem do Rio Braies devido a um deslizamento de terra desprendido do Sasso del Signore.</p>
+<p>
+O lago é um destino turístico e é cercado em três lados por picos Dolomitas, incluindo o Croda del Becco. O lago é o ponto de partida da Alta via n. 1 das Dolomitas denominado "O clássico" que chega a Belluno aos pés do Grupo Schiara.</p>

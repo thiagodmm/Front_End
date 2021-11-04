@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  padding: 10px;
+  background-color: lightgrey;
+}
+
+#cabecalho {
+  padding: 30px;
+  text-align: center;
+  background-color:Lavender;
+}
+
+#cabecalho h1 {
+  font-size: 50px;
+  color: DarkGray;
+}
+
+#topnav {
+  overflow: hidden;
+  background-color:DeepSkyBlue;
+}
+
+#topnav a {
+  float: left;
+  display: block;
+  color:blue;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none
+}
+
+#topnav a:hover {
+  color: yellow;
+  background-color:DarkBlue;
+}
+
+/* Coluna da esquerda */
+#esquerda {
+  float: left;
+  width: 75%;
+}
+
+/* Coluna da direita */
+#direita {
+  float: left;
+  width: 25%;
+  background-color: DodgerBlue;
+  padding-left: 20px;
+}
+
+/* Imagem fake */
+
+.imagem {
+  background-color:cadetblue;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Card */
+
+.card {
+  background-color: gray;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#rodape {
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  background-color:darkslateblue;
+}
+
+#coluna::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsivo */
+
+/* Para telas menores de 800 pixels */
+
+@media screen and (max-width: 800px) {
+
+  #esquerda, #direita {
+    width: 100%;
+    padding: 0;
+  }
+
+  #cabecalho {
+    color: orange;
+    background-color: lightblue;
+  }
+
+  #cabecalho h1 {
+    color: darkslategray;
+  }
+
+}
+
+/* Para telas menores de 600 pixels */
+
+@media screen and (max-width: 600px) {
+
+  #topnav a{
+    float: none;
+    width: 100%;
+  }
+
+  #cabecalho {
+    color: white;
+    background-color: mediumslateblue;
+  }
+
+  #cabecalho h1 {
+    color: White;
+  }
+
+}

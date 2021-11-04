@@ -1,0 +1,57 @@
+/* Estilos do Site */
+
+.tit-carrossel-principal {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    display: inline-block;
+    margin: 0px;
+}
+
+.sub-tit-carrossel-principal {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    display: inline-block;
+    margin: 0px;
+}
+
+.bt-padrao {
+    border: 1px solid #035c4b!important;
+    background-color: #1ed9a4!important;
+    color: #035c4b!important;
+}
+
+.img-carrossel-1 {
+    width: 100%;
+    height: 560px;
+    background-image: url("../img/carrossel_destaque_1.jpg");
+    background-size: cover;
+    background-position: bottom right;
+    display: block;
+}
+
+.img-carrossel-2 {
+    width: 100%;
+    height: 560px;
+    background-image: url("../img/carrossel_destaque_2.jpg");
+    background-size: cover;
+    background-position: bottom right;
+    display: block;
+}
+
+.img-carrossel-3 {
+    width: 100%;
+    height: 560px;
+    background-image: url("../img/carrossel_destaque_3.jpg");
+    background-size: cover;
+    background-position: bottom right;
+    display: block;
+}
+
+
+/* Para telas menores de 600 pixels */
+
+@media screen and (max-width: 600px) {
+
+
+
+}
