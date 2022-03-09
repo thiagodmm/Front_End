@@ -68,6 +68,16 @@ body {
   margin-top: 20px;
 }
 
+.verdana {
+	font-family: Verdana;
+	color: red;
+}
+
+.arial {
+	font-family: Arial;
+	color: blue;
+}
+
 #rodape {
   padding: 20px;
   text-align: center;

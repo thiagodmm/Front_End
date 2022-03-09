@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Template de website responsivo construído em Bootstrap 5.0">
+  <meta name="author" content="Thiago de Moura Machado">
+  <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap">
+  <title>Uma Semana nos Alpes Italianos - Um Roteiro de Viagem</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+  <!-- Estilos do Site -->
+  <link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+  <!-- Link para CSS do Bootstrap -->
+  <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+  <!-- Estilos Customizados para este Template -->
+  <link href="css/carousel.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Roteiro de Viagem: Alpes Italianos</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contato.html">Contato</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Digite aqui..." aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+  </header>
+
+  <main>
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+        <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+
+            <div class="img-carrossel-1">
+            </div>
+
+          <!-- 
+              <img src="img/carrossel_destaque_1.jpg" class="img-fluid" style="width:100%; height:auto">
+          -->
+
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1 class="tit-carrossel-principal">Uma experiência inesquecível.</h1>
+              <p class="sub-tit-carrossel-principal">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget
+                metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary bt-padrao" href="contato.html" role="button">Contrate o Pacote</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+
+            <div class="img-carrossel-2">
+            </div>
+
+          <!--
+              <img src="img/carrossel_destaque_2.jpg" class="img-fluid" style="width:100%; height:auto">
+          -->
+
+          <div class="container">
+            <div class="carousel-caption">
+              <h1 class="tit-carrossel-principal">Visuais arrebatadores.</h1>
+              <p class="sub-tit-carrossel-principal">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget
+                metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary bt-padrao" href="contato.html" role="button">Saiba Mais</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+
+            <div class="img-carrossel-3">
+            </div>
+
+          <!--
+              <img src="img/carrossel_destaque_3.jpg" class="img-fluid" style="width:100%; height:auto">
+          -->
+
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1 class="tit-carrossel-principal">Uma semana para ficar registrada na memória.</h1>
+              <p class="sub-tit-carrossel-principal">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget
+                metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary bt-padrao" href="galeria.html" role="button">Visite a Galeria de Fotos</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </a>
+    </div>
+	
+	<!-- Linha de 1 Coluna com parágrafo -->
+	<div class="container marketing">
+		<div class="row pb-5">
+			<div class="col-lg-12">
+				<h2>O LAGO BRAIES</h2>
+
+<p>
+O Lago Braies (Pragser Wildsee em alemão) é um pequeno lago alpino localizado no Vale Braies (um vale lateral do Vale Puster) a 1.496 m acima do nível do mar no município de Braies, cerca de 97 km de Bolzano.</p>
+
+<h4>Topônimo</h4>
+<p>
+O nome do lago é atestado em 1296 como Hünz an den Se , em 1330 como Praxersee, em 1400 como See in Prags, em 1620 como Pragsersee e em 1885 como Pragser Wildsee; o nome de selvagem ("selvagem") é, portanto, do século XIX, e talvez esteja ligado ao montanhismo que naquele período começou a se tornar um fenômeno de massa. O nome italiano "Lago di Braies" data de 1940, enquanto no primeiro Manual de 1923 ele ainda aparece apenas como "Pragser Wildsee".</p>
+
+<h4>Geografia</h4>
+<p>
+O lago fica no sopé da imponente face rochosa do Croda del Becco (Seekofel alemão, Ladin Sass dla Porta 2.810m) e está localizado dentro do parque natural Fanes - Sennes e Braies.</p>
+<p>
+Tem uma extensão de cerca de 33 hectares com uma extensão de 1,2 km e uma largura de 300-400 metros. É um dos lagos mais profundos da província autônoma de Bolzano, com profundidade máxima de 36 metros e profundidade média de 17 metros. [1] A temperatura máxima da água é 14°C. É um lago de barragem, pois sua criação se deve à barragem do Rio Braies devido a um deslizamento de terra desprendido do Sasso del Signore.</p>
+<p>
+O lago é um destino turístico e é cercado em três lados por picos Dolomitas, incluindo o Croda del Becco. O lago é o ponto de partida da Alta via n. 1 das Dolomitas denominado "O clássico" que chega a Belluno aos pés do Grupo Schiara.</p>
+			</div>
+		</div>
+	</div>
+
+
+    <!-- Chamadas e Destaques -->
+    <!-- Envolver o restante da página em outro Container para centralizar o conteúdo. -->
+
+    <div class="container marketing">
+
+      <!-- Três colunas de texto abaixo do Carrossel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="img/destaque3_250x250px.jpg" class="rounded-circle" width="140" height="140">
+          <h2>Locais Históricos</h2>
+          <p style="text-align:justify">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id
+            dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+            Praesent commodo cursus magna.</p>
+          <p><a class="btn btn-primary bt-padrao" href="#" role="button">Veja mais Detalhes &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="img/destaque2_250x250px.jpg" class="rounded-circle" width="140" height="140">
+          <h2>Canoagem</h2>
+          <p style="text-align:justify">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia
+            odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus
+            commodo, tortor mauris condimentum nibh.</p>
+          <p><a class="btn btn-primary bt-padrao" href="#" role="button">Veja mais Detalhes &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="img/destaque1_250x250px.jpg" class="rounded-circle" width="140" height="140">
+          <h2>Trekking e Cavernas</h2>
+          <p style="text-align:justify">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+            Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+            condimentum nibh.</p>
+          <p><a class="btn btn-primary bt-padrao" href="#" role="button">Veja mais Detalhes &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- Início dos Destaques -->
+
+      <hr class="featurette-divider">
+
+      <!-- Início do Player de Vídeo You Tube -->
+
+      <div class="row featurette">
+        <div class="col-md-6 order-md-2">
+          <h2 class="featurette-heading">Lago Braies<br>
+            <span class="text-muted">Vídeo oficial.</span>
+          </h2>
+          <p class="lead">"On our vacation we had the chance to make a dream come true. We have seen crazy, unspoiled
+            places of the wildest nature."</p>
+        </div>
+        <div class="col-md-6 order-md-1">
+          <iframe style="width: 100%" height="315" src="https://www.youtube.com/embed/fadeNgB2TpA" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <!-- Final do Player de Vídeo You Tube -->
+
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Viver perto da natureza.<br>
+            <span class="text-muted">Sossego,paz e tranquilidade.</span>
+          </h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+            semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+            commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="img/home_destaque1_500x500px.jpg" class="img-fluid">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-6 order-md-2">
+          <h2 class="featurette-heading">Passeios de canoa.<br>
+            <span class="text-muted">Guias locais experientes.</span>
+          </h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+            semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+            commodo.</p>
+        </div>
+        <div class="col-md-6 order-md-1">
+          <img src="img/home_destaque2_500x500px.jpg" class="img-fluid">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Culinária típica italiana.<br>
+            <span class="text-muted">Uma explosão de sabor.</span>
+          </h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+            semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+            commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="img/home_destaque3_500x500px.jpg" class="img-fluid">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- Final dos Destaques -->
+
+    </div><!-- /.container -->
+
+
+    <!-- Footer -->
+    <footer class="container">
+      <p class="float-end"><a href="#">Voltar para o Topo</a></p>
+      <p>&copy; 2021 - Thiago de Moura Machado. &middot;
+        <a href="http://www.tmachado.com.br">Site Pessoal</a> &middot;
+        <a href="mailto:thiago@tmachado.com.br">Entre em Contato</a>
+      </p>
+    </footer>
+  </main>
+
+  <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

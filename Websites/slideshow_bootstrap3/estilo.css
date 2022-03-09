@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+label {
+  margin-left: 20px;
+}
+
+th {
+  background-color: darkcyan;
+  color: White;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.img-circle {
+  display: block;
+  margin: auto;
+}
+
+.jumbotron-custom {
+  color: BlueViolet!important;
+  background-color: paleturquoise!important;
+}
+
+.bg-aqua {
+  background-color: Aqua;
+}
+
+.bg-aquamarine {
+  background-color: Aquamarine;
+}
+
+.bg-gainsboro {
+  background-color: Gainsboro;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-paleturquoise {
+  background-color: paleturquoise;
+}
+
+.bg-darkcyan {
+  background-color: darkcyan;
+}
+
+.txt-branco {
+  color: White;
+}
+
+.pad-25 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.marg-top-100 {
+  margin-top: 100px;
+}
+
+.marg-25 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.jumbotron {
+  margin-bottom: 20px!important;
+}
+
+#img-logo {
+  color:firebrick;
+}
+
+
